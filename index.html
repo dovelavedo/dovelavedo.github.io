@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dovelavedo</title>
+<meta name="description" content="Lo sport in TV oggi e dove vederlo: calcio, tennis, F1, basket e pallavolo. Orari, piattaforme e cosa è gratis.">
+<meta name="theme-color" content="#0b6b36">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Dovelavedo">
+<meta property="og:title" content="Dovelavedo · Lo sport in TV oggi">
+<meta property="og:description" content="Cosa c'è di sport oggi, dove vederlo e se è già nei tuoi abbonamenti.">
+<meta property="og:image" content="icons/icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap">
+<style>
+/* Una colonna da telefono: barra dei giorni, righe orario-evento-accesso, come il palinsesto di un'emittente */
+:root{
+  --bg:#f2f6f3; --surface:#ffffff; --ink:#10201a; --muted:#566a60; --line:#d9e3dd;
+  --accent:#0b6b36; --accent-soft:#e3f2e8; --on-accent:#ffffff; --gold:#f5c518; --gold-ink:#8a6a00;
+  --ok:#137a45; --ok-soft:#e2f4ea; --warn:#9a5b00; --warn-soft:#fdf0d9; --free:#0b6f7a; --free-soft:#ddf2f4;
+  --live:#c62828; --live-soft:#fde7e7; --scrim:rgba(8,20,14,.5);
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0b1310; --surface:#14201b; --ink:#e7efea; --muted:#9bb0a5; --line:#26362e;
+  --accent:#3ccf7f; --accent-soft:#163325; --on-accent:#06110b; --gold:#f5c518; --gold-ink:#f5c518;
+  --ok:#5fd394; --ok-soft:#15301f; --warn:#f2b55a; --warn-soft:#352612; --free:#5ccfdb; --free-soft:#10303a;
+  --live:#ff7b7b; --live-soft:#3a1616; --scrim:rgba(0,0,0,.6); color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-top:env(safe-area-inset-top,0px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+[hidden]{display:none!important}
+.app{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:14px;padding-top:12px}
+.stack{display:flex;flex-direction:column;gap:12px}
+header{display:flex;align-items:center;gap:10px}
+header img{width:40px;height:40px;border-radius:10px;flex:0 0 auto}
+.brand{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:.01em;line-height:1;text-transform:uppercase;white-space:nowrap}
+.brand span{color:var(--gold-ink)}
+.brand small{display:block;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:.02em;text-transform:none;color:var(--muted);margin-top:3px}
+.note{font-size:13px;color:var(--muted);margin:0}
+.search,.sel{width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:11px 14px;font:inherit}
+.days{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.day{flex:0 0 auto;min-width:54px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:6px 8px;text-align:center;cursor:pointer;font-family:var(--body)}
+.day b{display:block;font-family:var(--display);font-size:22px;line-height:1;font-variant-numeric:tabular-nums}
+.day small{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.day[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.day[aria-pressed="true"] small{color:var(--on-accent);opacity:.85}
+.day .dot{display:block;width:5px;height:5px;border-radius:50%;background:currentColor;margin:4px auto 0;opacity:.4}
+.day .dot.fav{background:var(--gold);opacity:1}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.dayhead{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.dayhead h2{font-family:var(--display);font-weight:700;font-size:22px;margin:0;text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.dayhead h2.live{color:var(--live)}
+.dayhead span{font-size:13px;color:var(--muted);text-align:right}
+.list{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.list.livebox{border-color:var(--live)}
+.row{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;border:0;border-top:1px solid var(--line);background:transparent;color:inherit;text-align:left;font:inherit;cursor:pointer;width:100%}
+.row:first-child{border-top:0}
+.row:hover{background:var(--accent-soft)}
+.time{font-family:var(--display);font-weight:700;font-size:21px;font-variant-numeric:tabular-nums;line-height:1}
+.time small{display:block;font-family:var(--body);font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.04em;margin-top:3px}
+.livetag{display:inline-block;font-family:var(--body);font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--live);background:var(--live-soft);border-radius:4px;padding:1px 5px;margin-bottom:4px}
+.ev .comp{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ev .name{font-weight:700;font-size:16px;overflow-wrap:anywhere}
+.ev .plats{font-size:13px;color:var(--muted)}
+.star{color:var(--gold-ink)}
+.chg{color:var(--warn);font-weight:700}
+.pill{font-size:12px;font-weight:700;border-radius:999px;padding:4px 9px;white-space:nowrap;text-align:center}
+.pill.ok{color:var(--ok);background:var(--ok-soft)}
+.pill.warn{color:var(--warn);background:var(--warn-soft)}
+.pill.free{color:var(--free);background:var(--free-soft)}
+.pill.done{color:var(--muted);background:var(--line)}
+.empty{padding:22px 16px;text-align:center;color:var(--muted)}
+nav{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;z-index:5;
+  padding-bottom:env(safe-area-inset-bottom,0px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav .in{max-width:520px;width:100%;display:grid;grid-template-columns:repeat(3,1fr)}
+nav button{border:0;background:transparent;color:var(--muted);font:inherit;font-weight:700;font-size:14px;padding:14px 4px;cursor:pointer;border-top:3px solid transparent}
+nav button[aria-current="page"]{color:var(--accent);border-top-color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.card h3{margin:0;font-family:var(--display);font-size:20px;text-transform:uppercase;letter-spacing:.02em}
+.toggles{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.tg{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:9px 10px;cursor:pointer;font-weight:600;font-size:14px}
+.tg input{accent-color:var(--accent);width:18px;height:18px;margin:0;flex:0 0 auto}
+.tg small{display:block;font-weight:500;color:var(--muted);font-size:12px}
+.pkgs{display:flex;flex-direction:column;gap:10px}
+.group{display:flex;flex-direction:column;gap:6px}
+.group h4{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fchip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.fchip[aria-pressed="true"]::before{content:"★ ";color:var(--gold-ink)}
+.btn{border:0;background:var(--accent);color:var(--on-accent);font:inherit;font-weight:700;border-radius:10px;padding:11px 16px;cursor:pointer;text-align:center;text-decoration:none;display:inline-block}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn.small{padding:7px 12px;font-size:14px}
+.srows{display:flex;flex-direction:column;gap:8px}
+.srow{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:8px;font-size:14px}
+.srows .srow:first-child{border-top:0;padding-top:0}
+.srow span{text-align:right;font-weight:700}
+.s-ok{color:var(--ok)} .s-part,.s-warn{color:var(--warn)} .s-free{color:var(--free)}
+.sugg{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.sugg p{margin:0}
+.sheet-bg{position:fixed;inset:0;background:var(--scrim);display:flex;align-items:flex-end;justify-content:center;z-index:20}
+.sheet{background:var(--surface);color:var(--ink);width:100%;max-width:520px;border-radius:18px 18px 0 0;padding:18px max(16px,env(safe-area-inset-right,0px)) calc(20px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:14px;max-height:88vh;overflow:auto}
+.sheet h3{margin:0;font-family:var(--display);font-size:26px;line-height:1.05;text-transform:uppercase;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px}
+.plist{display:flex;flex-direction:column;gap:8px}
+.prow{display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.prow div{min-width:0}
+.prow b{display:block}
+.prow small{color:var(--muted)}
+.alert{border:1px solid var(--warn);background:var(--warn-soft);border-radius:12px;padding:10px 12px;font-size:14px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(76px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px;z-index:30;max-width:calc(100% - 32px)}
+.steps{display:flex;gap:6px}
+.steps i{flex:1;height:4px;border-radius:2px;background:var(--line)}
+.steps i.on{background:var(--accent)}
+footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px;padding-top:6px}
+footer a{color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(24px)}}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <img src="icons/icon-192.png" alt="">
+    <div class="brand">Dove la <span>vedo</span><small>Lo sport in TV oggi, e se è già nei tuoi abbonamenti</small></div>
+  </header>
+
+  <section id="v-oggi" class="stack">
+    <input class="search" type="search" id="q" placeholder="Cerca squadra, atleta o competizione" aria-label="Cerca squadra, atleta o competizione">
+    <div class="stack" id="livewrap" hidden>
+      <div class="dayhead"><h2 class="live">In diretta adesso</h2><span id="livecount"></span></div>
+      <div class="list livebox" id="livelist"></div>
+    </div>
+    <div class="stack" id="daywrap">
+      <div class="days" id="days" role="group" aria-label="Scegli il giorno"></div>
+      <div class="chips" id="chips" role="group" aria-label="Filtra"></div>
+    </div>
+    <div class="dayhead"><h2 id="dtitle">Caricamento…</h2><span id="dcount"></span></div>
+    <div class="list" id="list"><div class="empty">Caricamento del palinsesto…</div></div>
+  </section>
+
+  <section id="v-mie" class="stack" hidden>
+    <div class="card">
+      <h3>Chi segui</h3>
+      <p class="note" id="favline"></p>
+      <div class="actions"><button class="btn ghost small" type="button" id="editfav">Modifica squadre e atleti</button></div>
+    </div>
+    <div class="stack" id="season"></div>
+    <div class="dayhead"><h2>I tuoi prossimi eventi</h2><span id="ncount"></span></div>
+    <div class="list" id="minelist"></div>
+    <p class="note">Per non perderti un evento, aprilo e tocca "Aggiungi al calendario".</p>
+  </section>
+
+  <section id="v-profilo" class="stack" hidden>
+    <div class="card" id="favcard">
+      <h3>Squadre e atleti</h3>
+      <p class="note">Li trovi evidenziati nel palinsesto e raccolti nella scheda "Le mie".</p>
+      <div id="favpick"></div>
+    </div>
+    <div class="card">
+      <h3>I tuoi abbonamenti</h3>
+      <p class="note">Scegli il pacchetto, non solo il marchio: chi ha Sky Sport ma non Sky Calcio non vede la Serie A su Sky.</p>
+      <div class="pkgs" id="subs"></div>
+    </div>
+    <div class="card">
+      <h3>Sport che segui</h3>
+      <div class="toggles" id="sports"></div>
+    </div>
+    <div class="card">
+      <h3>Installa l'app</h3>
+      <p class="note"><b>iPhone:</b> in Safari tocca Condividi → "Aggiungi alla schermata Home".<br><b>Android:</b> in Chrome tocca ⋮ → "Aggiungi a schermata Home" o "Installa app".</p>
+    </div>
+    <div class="actions"><button class="btn ghost small" id="replay" type="button">Rivedi il benvenuto</button></div>
+  </section>
+
+  <footer>
+    <span id="updated"></span>
+    <span>Orari e canali possono cambiare: controlla sempre sulla piattaforma. Solo fonti ufficiali, niente pirateria.</span>
+    <span>Ogni mattina il palinsesto anche su Telegram: <a href="https://t.me/dovelavedo" target="_blank" rel="noopener">t.me/dovelavedo</a></span>
+  </footer>
+</div>
+
+<nav><div class="in">
+  <button type="button" data-v="oggi" aria-current="page">Palinsesto</button>
+  <button type="button" data-v="mie">Le mie</button>
+  <button type="button" data-v="profilo">Profilo</button>
+</div></nav>
+
+<div id="sheet" hidden></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/* ---------- Riferimenti (prezzi di listino a ottobre 2026) ---------- */
+const PLAT={
+  "DAZN":"https://www.dazn.com","Sky":"https://www.sky.it","NOW":"https://www.nowtv.it","Prime Video":"https://www.primevideo.com",
+  "Eurosport":"https://www.eurosport.it","LBA TV":"https://www.legabasket.it","VBTV":"https://volleyballworld.tv",
+  "Rai 1":"https://www.raiplay.it","Rai":"https://www.raiplay.it","Rai 2":"https://www.raiplay.it","Rai Sport":"https://www.raiplay.it","RaiPlay":"https://www.raiplay.it",
+  "TV8":"https://www.tv8.it","SuperTennis":"https://www.supertennis.tv","Canale 5":"https://www.mediasetinfinity.mediaset.it","Italia 1":"https://www.mediasetinfinity.mediaset.it"
+};
+const PK=[
+  {id:"daznfull",n:"DAZN Full, Family o Full Mobile",s:"DAZN",p:"DAZN",price:"da 46,99 €/mese o 379 € l'anno"},
+  {id:"daznclub",n:"DAZN MyClubPass",s:"MyClubPass",p:"DAZN",price:"29,99 €/mese con 12 rate, solo la tua squadra"},
+  {id:"skycalcio",n:"Sky TV + Sky Calcio",s:"Sky Calcio",p:"Sky",price:"circa 14,90 €/mese in promozione"},
+  {id:"skysport",n:"Sky TV + Sky Sport",s:"Sky Sport",p:"Sky",price:"24,99 €/mese per 18 mesi"},
+  {id:"nowsport",n:"NOW Pass Sport",s:"NOW Sport",p:"NOW",price:"24,99 €/mese con vincolo di 12 mesi"},
+  {id:"prime",n:"Amazon Prime",s:"Prime",p:"Prime Video",price:"4,99 €/mese"},
+  {id:"eurosport",n:"Eurosport",s:"Eurosport",p:"Eurosport",price:"tramite HBO Max, discovery+, DAZN o TIMVISION"},
+  {id:"lbatv",n:"LBA TV",s:"LBA TV",p:"LBA TV",price:"99 € a stagione"},
+  {id:"vbtv",n:"VBTV",s:"VBTV",p:"VBTV",price:"piattaforma di Volleyball World"}
+];
+const PKS=Object.fromEntries(PK.map(k=>[k.id,k]));
+// Codici usati in data/events.json → piattaforma e pacchetti che la sbloccano
+const OFFERS={
+  seriea_dazn:{p:"DAZN",k:["daznfull","daznclub"]}, seriea_sky:{p:"Sky",k:["skycalcio"]}, seriea_now:{p:"NOW",k:["nowsport"]},
+  dazn:{p:"DAZN",k:["daznfull"]}, sky_sport:{p:"Sky",k:["skysport"]}, now_sport:{p:"NOW",k:["nowsport"]},
+  prime:{p:"Prime Video",k:["prime"]}, eurosport:{p:"Eurosport",k:["eurosport"]}, lbatv:{p:"LBA TV",k:["lbatv"]}, vbtv:{p:"VBTV",k:["vbtv"]}
+};
+const SERIEA=["Atalanta","Bologna","Cagliari","Como","Fiorentina","Frosinone","Genoa","Inter","Juventus","Lazio","Lecce","Milan","Monza","Napoli","Parma","Roma","Sassuolo","Torino","Udinese","Venezia"];
+const FAVG=[
+  {s:"Calcio",l:"Calcio · Serie A",i:SERIEA},{s:"Calcio",l:"Calcio · Nazionale",i:["Italia"]},
+  {s:"Tennis",l:"Tennis",i:["Sinner","Alcaraz","Zverev","Shelton","Musetti","Paolini"]},
+  {s:"Motori",l:"Formula 1 · scuderie e piloti",i:["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"]},
+  {s:"Basket",l:"Basket",i:["Olimpia Milano","Virtus Bologna"]},
+  {s:"Pallavolo",l:"Pallavolo · SuperLega",i:["Cisterna","Civitanova","Cuneo","Milano","Modena","Monza","Padova","Perugia","Piacenza","Pordenone","Trentino","Verona"]}
+];
+const SPORTS=["Calcio","Tennis","Motori","Basket","Pallavolo"];
+const CUPS={Inter:"CL",Roma:"CL",Juventus:"EL",Atalanta:"ECL"};
+const DUR={Calcio:115,Pallavolo:150,Motori:120,Tennis:180,Basket:120};
+const WD=["Dom","Lun","Mar","Mer","Gio","Ven","Sab"],WDL=["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"],MO=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
+
+/* ---------- Stato (salvato solo su questo telefono) ---------- */
+const st={subs:[],club:"Inter",sports:[...SPORTS],fav:[],sport:"Tutti",q:"",day:null,seen:false};
+try{const s=JSON.parse(localStorage.getItem("dlv")||"null");if(s)["subs","club","sports","fav","seen"].forEach(k=>{if(s[k]!==undefined)st[k]=s[k]})}catch(e){}
+const save=()=>{try{localStorage.setItem("dlv",JSON.stringify({subs:st.subs,club:st.club,sports:st.sports,fav:st.fav,seen:st.seen}))}catch(e){}};
+let EV=[],DATES=[],UPDATED="";
+
+/* ---------- Utilità ---------- */
+const $=id=>document.getElementById(id);
+const pad=n=>String(n).padStart(2,"0");
+const isoLocal=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const TODAY=()=>isoLocal(new Date());
+const dt=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(Date.UTC(y,m-1,d))};
+const dlabel=s=>{const x=dt(s);return `${WDL[x.getUTCDay()]} ${x.getUTCDate()} ${MO[x.getUTCMonth()]}`};
+const key=e=>e.d+"|"+e.n;
+const startOf=e=>e.t?new Date(`${e.d}T${e.t}:00`):null;
+const endOf=e=>{const s=startOf(e);return s?new Date(s.getTime()+(DUR[e.s]||120)*60000):null};
+const isLive=e=>{const s=startOf(e);if(!s)return false;const n=new Date();return n>=s&&n<endOf(e)};
+const isOver=e=>{const s=startOf(e);if(s)return new Date()>=endOf(e);return e.d<TODAY()};
+const has=id=>st.subs.includes(id);
+const favOf=e=>(e.who||[]).filter(w=>st.fav.includes(e.s+":"+w));
+const isFav=e=>favOf(e).length>0&&st.sports.includes(e.s);
+const plain=f=>f.split(":").slice(1).join(":");
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const offers=e=>(e.o||[]).map(c=>OFFERS[c]).filter(Boolean);
+const sortEv=(a,b)=>(a.d+(a.t||"99")).localeCompare(b.d+(b.t||"99"));
+
+function covers(of,e){return of.k.some(k=>has(k)&&(k!=="daznclub"||(e.who||[]).includes(st.club)))}
+function access(e){
+  const os=offers(e),ok=os.filter(of=>covers(of,e));
+  if(ok.length){const names=[...new Set(ok.flatMap(of=>of.k.filter(has).map(k=>PKS[k].s)))];return{cls:"ok",txt:"Incluso",why:"Incluso in "+names.join(", ")}}
+  if(e.f&&e.f.length)return{cls:"free",txt:"Gratis",why:"Gratis su "+e.f.join(", ")};
+  const need=[...new Set(os.flatMap(of=>of.k.filter(k=>k!=="daznclub").map(k=>PKS[k].s)))];
+  if(!need.length)return{cls:"warn",txt:"Da confermare",why:"Emittente da confermare"};
+  return{cls:"warn",txt:need.length===1?"Serve "+need[0]:"Non incluso",why:"Serve uno tra: "+need.join(", ")};
+}
+function platsLine(e){const ps=[...new Set(offers(e).map(of=>of.p))];return ps.join(" · ")+(e.f&&e.f.length?(ps.length?" · gratis: ":"Gratis: ")+e.f.join(", "):"")}
+
+/* ---------- Palinsesto ---------- */
+function renderDays(){
+  if(!st.day||!DATES.includes(st.day))st.day=DATES[0];
+  $("days").innerHTML=DATES.map(d=>{const x=dt(d);const f=EV.some(e=>e.d===d&&isFav(e));
+    return `<button class="day" type="button" data-d="${d}" aria-pressed="${d===st.day}"><small>${d===TODAY()?"Oggi":WD[x.getUTCDay()]}</small><b>${x.getUTCDate()}</b><span class="dot${f?" fav":""}"></span></button>`}).join("");
+  $("days").querySelectorAll(".day").forEach(b=>b.onclick=()=>{st.day=b.dataset.d;renderList();renderDays()});
+}
+function renderChips(){
+  const opts=["Tutti","★ Le mie","Gratis",...SPORTS.filter(s=>st.sports.includes(s))];
+  if(!opts.includes(st.sport))st.sport="Tutti";
+  $("chips").innerHTML=opts.map(s=>`<button class="chip" type="button" data-s="${s}" aria-pressed="${s===st.sport}">${s}</button>`).join("");
+  $("chips").querySelectorAll(".chip").forEach(b=>b.onclick=()=>{st.sport=b.dataset.s;renderChips();renderList()});
+}
+function rowHTML(e,showDate){
+  const a=access(e),x=dt(e.d),f=favOf(e),live=isLive(e),over=!live&&isOver(e);
+  const sub=showDate?`${WD[x.getUTCDay()]} ${x.getUTCDate()}`:"";
+  const tags=[isFav(e)?`<span class="star">★ ${esc(f.slice(0,2).join(", "))}${f.length>2?"…":""}</span>`:"",e.chg?'<span class="chg">Cambiato</span>':""].filter(Boolean).join(" · ");
+  const pill=over?`<span class="pill done">Finita</span>`:`<span class="pill ${a.cls}">${a.txt}</span>`;
+  return `<button class="row" type="button" data-k="${esc(key(e))}">
+    <div class="time">${live?'<span class="livetag">LIVE</span><br>':""}${esc(e.t)||"—"}${e.t?"":"<small>da definire</small>"}${sub?`<small>${sub}</small>`:""}</div>
+    <div class="ev"><div class="comp">${esc(e.c)}${tags?" · "+tags:""}</div><div class="name">${esc(e.n)}</div><div class="plats">${esc(platsLine(e))}</div></div>
+    ${pill}</button>`;
+}
+function bindRows(root){root.querySelectorAll(".row").forEach(b=>b.onclick=()=>openSheet(EV.find(e=>key(e)===b.dataset.k)))}
+function filterEv(e){
+  if(!st.sports.includes(e.s))return false;
+  if(st.sport==="★ Le mie")return isFav(e);
+  if(st.sport==="Gratis")return !!(e.f&&e.f.length);
+  if(st.sport!=="Tutti")return e.s===st.sport;
+  return true;
+}
+function renderList(){
+  const live=EV.filter(e=>isLive(e)&&st.sports.includes(e.s)).sort(sortEv);
+  const q=st.q.trim().toLowerCase();
+  $("livewrap").hidden=!live.length||!!q;
+  $("livecount").textContent=live.length?`${live.length} ${live.length===1?"evento":"eventi"}`:"";
+  $("livelist").innerHTML=live.map(e=>rowHTML(e,false)).join("");bindRows($("livelist"));
+  $("daywrap").hidden=!!q;
+  let items,empty;
+  if(q){
+    items=EV.filter(e=>st.sports.includes(e.s)&&[e.n,e.c,e.s,...(e.who||[])].join(" ").toLowerCase().includes(q)).sort(sortEv);
+    $("dtitle").textContent=`Risultati per «${st.q.trim()}»`;
+    empty="Nessun evento trovato. Prova con il nome di una squadra o di una competizione.";
+  }else if(!st.day){
+    items=[];$("dtitle").textContent="Nessun evento in programma";empty="Il palinsesto dei prossimi giorni arriva a breve.";
+  }else{
+    items=EV.filter(e=>e.d===st.day&&filterEv(e)).sort(sortEv);
+    $("dtitle").textContent=(st.day===TODAY()?"Oggi · ":"")+dlabel(st.day);
+    empty=st.sport==="★ Le mie"?"Nessun evento di chi segui in questo giorno.":st.sport==="Gratis"?"Nessun evento in chiaro in questo giorno.":"Nessun evento per questo giorno con i filtri scelti.";
+  }
+  const inc=items.filter(e=>access(e).cls!=="warn").length;
+  $("dcount").textContent=items.length?(q?`${items.length} eventi`:`${inc} di ${items.length} già visibili`):"";
+  $("list").innerHTML=items.length?items.map(e=>rowHTML(e,!!q)).join(""):`<div class="empty">${empty}</div>`;
+  bindRows($("list"));
+}
+
+/* ---------- Le mie ---------- */
+function season(){
+  const out=[];const price=id=>`${PKS[id].n} (${PKS[id].price})`;
+  const skyS=has("skysport")||has("nowsport"),pr=has("prime");
+  st.fav.filter(f=>f.startsWith("Calcio:")&&SERIEA.includes(plain(f))).forEach(f=>{
+    const t=plain(f),rows=[],sug=[];
+    if(has("daznfull"))rows.push(["Serie A · 38 partite","Tutte e 38","ok"]);
+    else if(has("daznclub")&&st.club===t)rows.push(["Serie A · 38 partite","Tutte e 38 con MyClubPass","ok"]);
+    else if(has("skycalcio")||has("nowsport"))rows.push(["Serie A · 38 partite","Solo quelle scelte da Sky, 3 su 10 a giornata","part"]);
+    else rows.push(["Serie A · 38 partite","Nessuna","warn"]);
+    if(rows[0][2]!=="ok")sug.push(`Per tutto il campionato: ${price("daznfull")}, oppure ${price("daznclub")}.`);
+    const cup=CUPS[t];
+    if(cup==="CL"){
+      rows.push(["Champions League",skyS&&pr?"Tutte":skyS?"Quasi tutte: la migliore del mercoledì è su Prime":pr?"Solo la migliore del mercoledì, se scelta":"Nessuna",skyS&&pr?"ok":skyS||pr?"part":"warn"]);
+      if(!skyS)sug.push(`Per la Champions: ${price("nowsport")} oppure ${price("skysport")}.`);
+      if(!pr)sug.push(`Per le partite del mercoledì su Prime Video: ${price("prime")}.`);
+    }
+    if(cup==="EL"||cup==="ECL"){
+      const nm=cup==="EL"?"Europa League":"Conference League";
+      rows.push([nm,skyS?"Tutte":cup==="EL"?"Una a giornata in chiaro su TV8, se scelta":"Nessuna",skyS?"ok":cup==="EL"?"part":"warn"]);
+      if(!skyS)sug.push(`Per tutta la ${nm}: ${price("nowsport")} oppure ${price("skysport")}.`);
+    }
+    out.push({h:t,rows,sug});
+  });
+  if(st.fav.includes("Calcio:Italia"))out.push({h:"Italia",rows:[["Nations League","Gratis su Rai 1 e RaiPlay","free"]],sug:[]});
+  if(st.fav.some(f=>f.startsWith("Motori:")))out.push({h:"Formula 1",rows:[["Mondiale · tutte le gare",skyS?"Tutte, con prove e qualifiche":"In diretta solo GP d'Italia e Sprint su TV8, il resto in differita",skyS?"ok":"part"]],sug:skyS?[]:[`Per tutte le gare in diretta: ${price("nowsport")} oppure ${price("skysport")}.`]});
+  $("season").innerHTML=out.length?`<div class="dayhead"><h2>La tua stagione</h2><span>con i tuoi abbonamenti</span></div>`+out.map(c=>`<div class="card"><h3>${esc(c.h)}</h3><div class="srows">${c.rows.map(r=>`<div class="srow"><b>${r[0]}</b><span class="s-${r[2]}">${r[1]}</span></div>`).join("")}</div>${c.sug.length?`<div class="sugg">${c.sug.map(s=>`<p>${s}</p>`).join("")}</div>`:""}</div>`).join("")+`<p class="note">Prezzi di listino a ottobre 2026, possono cambiare.</p>`:"";
+}
+function renderMine(){
+  const items=EV.filter(e=>isFav(e)&&!isOver(e)).sort(sortEv);
+  $("favline").innerHTML=st.fav.length?st.fav.map(f=>`<span class="star">★</span> ${esc(plain(f))}`).join(" &nbsp; "):"Non segui ancora nessuno: scegli squadre, tennisti o piloti.";
+  $("ncount").textContent=items.length?`${items.length} eventi`:"";
+  $("minelist").innerHTML=items.length?items.map(e=>rowHTML(e,true)).join(""):`<div class="empty">Nessun evento in programma per chi segui.</div>`;
+  bindRows($("minelist"));
+  season();
+}
+
+/* ---------- Profilo ---------- */
+function favPicker(root,pre){
+  const groups=FAVG.filter(g=>st.sports.includes(g.s));
+  root.innerHTML=`<div class="stack"><input class="search" type="search" id="${pre}-q" placeholder="Cerca squadra, tennista o pilota" aria-label="Cerca squadra, tennista o pilota">
+    ${groups.map(g=>`<div class="group"><h4>${g.l}</h4><div class="chips">${g.i.map(o=>`<button type="button" class="fchip" data-o="${g.s}:${o}" aria-pressed="${st.fav.includes(g.s+":"+o)}">${o}</button>`).join("")}</div></div>`).join("")}
+    ${groups.length?"":'<p class="note">Scegli prima almeno uno sport.</p>'}</div>`;
+  root.querySelectorAll(".fchip").forEach(b=>b.onclick=()=>{const o=b.dataset.o,on=st.fav.includes(o);st.fav=on?st.fav.filter(x=>x!==o):[...st.fav,o];b.setAttribute("aria-pressed",String(!on));save();render()});
+  const q=$(pre+"-q");
+  q.oninput=()=>{const t=q.value.trim().toLowerCase();root.querySelectorAll(".group").forEach(g=>{let any=false;g.querySelectorAll(".fchip").forEach(c=>{const m=!t||c.textContent.toLowerCase().includes(t);c.hidden=!m;any=any||m});g.hidden=!any})};
+}
+function pkgPicker(root,pre){
+  const plats=[...new Set(PK.map(k=>k.p))];
+  root.innerHTML=plats.map(p=>`<div class="group"><h4>${p}</h4>${PK.filter(k=>k.p===p).map(k=>`<label class="tg"><input type="checkbox" id="${pre}-${k.id}" data-k="${k.id}" ${has(k.id)?"checked":""}><span>${k.n}<small>${k.price}</small></span></label>${k.id==="daznclub"&&has("daznclub")?`<select class="sel" id="${pre}-club" aria-label="Squadra del MyClubPass">${SERIEA.map(t=>`<option ${t===st.club?"selected":""}>${t}</option>`).join("")}</select>`:""}`).join("")}</div>`).join("");
+  root.querySelectorAll("input[data-k]").forEach(i=>i.onchange=()=>{const k=i.dataset.k;st.subs=i.checked?[...st.subs,k]:st.subs.filter(x=>x!==k);save();pkgPicker(root,pre);render()});
+  const c=$(pre+"-club");if(c)c.onchange=()=>{st.club=c.value;save();render()};
+}
+function renderProfile(){
+  favPicker($("favpick"),"pf");
+  pkgPicker($("subs"),"pk");
+  $("sports").innerHTML=SPORTS.map(s=>`<label class="tg"><input type="checkbox" id="sp-${s}" data-sp="${s}" ${st.sports.includes(s)?"checked":""}>${s}</label>`).join("");
+  $("sports").querySelectorAll("input").forEach(i=>i.onchange=()=>{const s=i.dataset.sp;st.sports=i.checked?[...st.sports,s]:st.sports.filter(x=>x!==s);save();renderProfile();render()});
+}
+function render(){
+  $("updated").textContent=UPDATED?`Palinsesto aggiornato al ${dlabel(UPDATED).toLowerCase()}.`:"";
+  renderDays();renderChips();renderList();renderMine();
+}
+
+/* ---------- Scheda evento ---------- */
+function toast(t){const el=$("toast");el.textContent=t;el.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>el.hidden=true,2400)}
+function closeSheet(){$("sheet").hidden=true;$("sheet").innerHTML=""}
+function gcal(e){
+  const f=d=>`${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}T${pad(d.getHours())}${pad(d.getMinutes())}00`;
+  let dates;
+  if(e.t)dates=`${f(startOf(e))}/${f(endOf(e))}`;
+  else{const x=dt(e.d);x.setUTCDate(x.getUTCDate()+1);dates=`${e.d.replace(/-/g,"")}/${x.toISOString().slice(0,10).replace(/-/g,"")}`}
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.n+" · "+e.c)}&dates=${dates}&details=${encodeURIComponent("Dove vederla: "+platsLine(e)+"\nhttps://dovelavedo.github.io")}${e.t?"&ctz=Europe/Rome":""}`;
+}
+function shareText(e){return `${e.n} (${e.c}) · ${dlabel(e.d)}${e.t?" alle "+e.t:""}. Dove vederla: ${platsLine(e)}. https://dovelavedo.github.io`}
+function openSheet(e){
+  if(!e)return;
+  const a=access(e),f=isFav(e)?favOf(e):[],live=isLive(e),over=!live&&isOver(e);
+  const os=offers(e).map(of=>{const inc=covers(of,e);const pk=of.k.map(x=>PKS[x].s+(x==="daznclub"?" (solo la tua squadra)":"")).join(" o ");
+    return `<div class="prow"><div><b>${of.p}</b><small>${inc?"Nei tuoi abbonamenti":"Serve "+pk}</small></div><a class="btn small" href="${PLAT[of.p]}" target="_blank" rel="noopener">Apri ${of.p} ↗</a></div>`}).join("");
+  const fr=(e.f||[]).map(p=>`<div class="prow"><div><b>${esc(p)}</b><small>Gratis</small></div>${PLAT[p]?`<a class="btn small" href="${PLAT[p]}" target="_blank" rel="noopener">Apri ↗</a>`:""}</div>`).join("");
+  $("sheet").innerHTML=`<div class="sheet-bg" id="bg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
+    <div class="meta">${live?'<span class="livetag">IN DIRETTA</span> ':""}${esc(e.c)} · ${dlabel(e.d)}${e.t?" · "+esc(e.t):" · orario da definire"}</div>
+    <h3 id="sh-t">${esc(e.n)}</h3>
+    ${e.chg?`<div class="alert"><b>Cambio di programma:</b> ${esc(e.chg)}.</div>`:""}
+    ${over?'<p class="note">Evento concluso.</p>':`<span class="pill ${a.cls}" style="align-self:flex-start">${a.why}</span>`}
+    ${f.length?`<p class="note"><span class="star">★</span> Segui ${esc(f.join(", "))}</p>`:""}
+    <div class="plist">${os}${fr}</div>
+    <p class="note">I link aprono la piattaforma: da lì cerchi l'evento. Presto i link porteranno direttamente alla partita.</p>
+    ${e.x?`<p class="note">${esc(e.x)}</p>`:""}
+    <div class="actions">
+      ${over?"":`<a class="btn ghost" href="${gcal(e)}" target="_blank" rel="noopener">Aggiungi al calendario</a>`}
+      <a class="btn ghost" href="https://wa.me/?text=${encodeURIComponent(shareText(e))}" target="_blank" rel="noopener">Condividi su WhatsApp</a>
+      <button class="btn ghost" type="button" id="sh-copy">Copia il testo</button>
+      <a class="btn ghost" href="https://t.me/dovelavedo_bot" target="_blank" rel="noopener">Segnala un errore</a>
+      <button class="btn ghost" type="button" id="sh-x">Chiudi</button>
+    </div>
+    <p class="note" id="sh-txt" hidden></p></div></div>`;
+  $("sheet").hidden=false;
+  $("bg").onclick=ev=>{if(ev.target.id==="bg")closeSheet()};
+  $("sh-x").onclick=closeSheet;
+  $("sh-copy").onclick=()=>{const t=shareText(e);
+    const fb=()=>{const p=$("sh-txt");p.hidden=false;p.textContent=t;const r=document.createRange();r.selectNodeContents(p);const s=getSelection();s.removeAllRanges();s.addRange(r);toast("Testo selezionato: copialo")};
+    try{navigator.clipboard.writeText(t).then(()=>toast("Testo copiato"),fb)}catch(err){fb()}};
+}
+
+/* ---------- Benvenuto ---------- */
+const STEPS=[
+  {h:"Che sport segui?",b:"Il palinsesto mostrerà solo questi.",k:"sports"},
+  {h:"Chi tifi?",b:"Squadre, tennisti, piloti: li evidenziamo e li raccogliamo nella scheda \"Le mie\".",k:"fav"},
+  {h:"Quali abbonamenti hai?",b:"Così ti diciamo subito cosa puoi già vedere. Scegli il pacchetto esatto: Sky Calcio per la Serie A, Sky Sport per coppe e Formula 1.",k:"subs"}
+];
+function onboard(i=0){
+  const s=STEPS[i];let body="";
+  if(s.k==="sports")body=`<div class="toggles">${SPORTS.map(o=>`<label class="tg"><input type="checkbox" id="ob-${o}" data-o="${o}" ${st.sports.includes(o)?"checked":""}>${o}</label>`).join("")}</div>`;
+  if(s.k==="fav")body=`<div id="obfav"></div>`;
+  if(s.k==="subs")body=`<div class="pkgs" id="obsubs"></div>`;
+  $("sheet").innerHTML=`<div class="sheet-bg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="ob-t">
+    <div class="steps">${STEPS.map((_,j)=>`<i class="${j<=i?"on":""}"></i>`).join("")}</div>
+    <h3 id="ob-t">${s.h}</h3><p class="note">${s.b}</p>${body}
+    <div class="actions"><button class="btn" type="button" id="ob-n">${i<STEPS.length-1?"Avanti":"Vai al palinsesto"}</button><button class="btn ghost" type="button" id="ob-s">${i<STEPS.length-1?"Salta":"Lo faccio dopo"}</button></div></div></div>`;
+  $("sheet").hidden=false;
+  if(s.k==="fav")favPicker($("obfav"),"ob");
+  if(s.k==="subs")pkgPicker($("obsubs"),"obk");
+  $("sheet").querySelectorAll("input[data-o]").forEach(inp=>inp.onchange=()=>{const o=inp.dataset.o;st.sports=inp.checked?[...st.sports,o]:st.sports.filter(x=>x!==o);save()});
+  const next=()=>{if(i<STEPS.length-1)onboard(i+1);else{st.seen=true;save();closeSheet();renderProfile();go("oggi");render()}};
+  $("ob-n").onclick=next;$("ob-s").onclick=next;
+}
+
+/* ---------- Navigazione e avvio ---------- */
+function go(v){
+  ["oggi","mie","profilo"].forEach(n=>$("v-"+n).hidden=n!==v);
+  document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-current",b.dataset.v===v?"page":"false"));
+  window.scrollTo(0,0);
+}
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>go(b.dataset.v));
+$("replay").onclick=()=>onboard(0);
+$("editfav").onclick=()=>{go("profilo");$("favcard").scrollIntoView({block:"start"})};
+$("q").oninput=()=>{st.q=$("q").value;renderList()};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("sheet").hidden)closeSheet()});
+
+function load(data){
+  UPDATED=data.updated||"";
+  EV=(data.events||[]).filter(e=>e&&e.d&&e.n&&e.s).map(e=>{if(!e.who&&(e.s==="Calcio"||e.s==="Pallavolo"||e.s==="Basket"))e.who=e.n.split("–").map(x=>x.trim());return e});
+  const today=TODAY();
+  DATES=[...new Set(EV.map(e=>e.d))].filter(d=>d>=today).sort();
+  renderProfile();render();
+  if(!st.seen)onboard(0);
+}
+fetch("data/events.json?v="+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(load).catch(()=>{
+  $("dtitle").textContent="Palinsesto non disponibile";
+  $("list").innerHTML='<div class="empty">Non riesco a caricare il palinsesto. Controlla la connessione e riprova tra poco.</div>';
+});
+setInterval(()=>{if($("sheet").hidden)renderList()},60000);
+</script>
+</body>
+</html>
