@@ -223,10 +223,10 @@ const GOATCOUNTER="";     // codice GoatCounter per le statistiche: vuoto = ness
 
 /* ---------- Riferimenti (prezzi di listino a ottobre 2026) ---------- */
 const PLAT={
-  "DAZN":"https://www.dazn.com","Sky":"https://www.sky.it","NOW":"https://www.nowtv.it","Prime Video":"https://www.primevideo.com",
+  "DAZN":"https://www.dazn.com/it-IT/home","Sky":"https://www.sky.it","NOW":"https://www.nowtv.it","Prime Video":"https://www.primevideo.com",
   "Eurosport":"https://www.eurosport.it","LBA TV":"https://www.legabasket.it","VBTV":"https://volleyballworld.tv",
-  "Rai 1":"https://www.raiplay.it","Rai":"https://www.raiplay.it","Rai 2":"https://www.raiplay.it","Rai Sport":"https://www.raiplay.it","RaiPlay":"https://www.raiplay.it",
-  "TV8":"https://www.tv8.it","SuperTennis":"https://www.supertennis.tv","Canale 5":"https://www.mediasetinfinity.mediaset.it","Italia 1":"https://www.mediasetinfinity.mediaset.it"
+  "Rai 1":"https://www.raiplay.it/dirette/rai1","Rai 2":"https://www.raiplay.it/dirette/rai2","Rai Sport":"https://www.raiplay.it/dirette/raisport","Rai":"https://www.raiplay.it/dirette","RaiPlay":"https://www.raiplay.it/dirette",
+  "TV8":"https://www.tv8.it/streaming","SuperTennis":"https://www.supertennis.tv","Canale 5":"https://www.mediasetinfinity.mediaset.it","Italia 1":"https://www.mediasetinfinity.mediaset.it"
 };
 const PK=[
   {id:"daznfull",n:"DAZN Full, Family o Full Mobile",s:"DAZN",p:"DAZN",price:"da 46,99 €/mese o 379 € l'anno"},
@@ -432,7 +432,7 @@ function openSheet(e){
   const a=access(e),f=isFav(e)?favOf(e):[],live=isLive(e),over=!live&&isOver(e);
   const os=offers(e).map(of=>{const inc=covers(of,e);const pk=of.k.map(x=>PKS[x].s+(x==="daznclub"?" (solo la tua squadra)":"")).join(" o ");
     return `<div class="prow"><div><b>${of.p}</b><small>${inc?"Nei tuoi abbonamenti":"Serve "+pk}</small></div><a class="btn small" href="${(e.l&&e.l[of.p])||PLAT[of.p]}" target="_blank" rel="noopener">${e.l&&e.l[of.p]?"Vai alla partita":"Apri "+of.p} ↗</a></div>`}).join("");
-  const fr=(e.f||[]).map(p=>`<div class="prow"><div><b>${esc(p)}</b><small>Gratis</small></div>${PLAT[p]?`<a class="btn small" href="${PLAT[p]}" target="_blank" rel="noopener">Apri ↗</a>`:""}</div>`).join("");
+  const fr=(e.f||[]).map(p=>`<div class="prow"><div><b>${esc(p)}</b><small>Gratis</small></div>${PLAT[p]?`<a class="btn small" href="${(e.l&&e.l[p])||PLAT[p]}" target="_blank" rel="noopener">Guarda la diretta ↗</a>`:""}</div>`).join("");
   $("sheet").innerHTML=`<div class="sheet-bg" id="bg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <div class="meta">${live?'<span class="livetag">IN DIRETTA</span> ':""}${esc(e.c)} · ${dlabel(e.d)}${e.t?" · "+esc(e.t):" · orario da definire"}</div>
     <h3 id="sh-t">${esc(e.n)}</h3>
