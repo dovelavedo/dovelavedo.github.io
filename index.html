@@ -123,6 +123,8 @@ nav button[aria-current="page"]{color:var(--accent);border-top-color:var(--accen
 .steps{display:flex;gap:6px}
 .steps i{flex:1;height:4px;border-radius:2px;background:var(--line)}
 .steps i.on{background:var(--accent)}
+.banner{background:var(--warn-soft);border:1px solid var(--warn);border-radius:12px;padding:10px 12px;font-size:14px}
+.banner b{display:block}
 footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px;padding-top:6px}
 footer a{color:var(--accent)}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -135,6 +137,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
     <img src="icons/icon-192.png" alt="">
     <div class="brand">Dove la <span>vedo</span><small>Lo sport in TV oggi, e se è già nei tuoi abbonamenti</small></div>
   </header>
+
+  <div class="banner" id="inapp" hidden><b>Le tue scelte potrebbero non essere salvate</b>Stai usando il browser interno di un'app (WhatsApp, Telegram, Instagram…). Apri il link in Safari o Chrome: tocca ⋯ e scegli "Apri nel browser".</div>
 
   <section id="v-oggi" class="stack">
     <input class="search" type="search" id="q" placeholder="Cerca squadra, atleta o competizione" aria-label="Cerca squadra, atleta o competizione">
@@ -178,6 +182,17 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <div class="toggles" id="sports"></div>
     </div>
     <div class="card">
+      <h3>Il tuo link personale</h3>
+      <p class="note">Le scelte restano salvate su questo telefono. Per ritrovarle su un altro dispositivo o browser, apri questo link lì.</p>
+      <div class="actions"><button class="btn small" type="button" id="mylink">Copia il link personale</button></div>
+      <p class="note" id="mylinktxt" hidden></p>
+    </div>
+    <div class="card" id="donatecard" hidden>
+      <h3>Sostieni Dovelavedo</h3>
+      <p class="note">Dovelavedo è gratis e lo resterà. Se ti è utile, puoi offrirci un caffè.</p>
+      <div class="actions"><a class="btn small" id="donatebtn" href="#" target="_blank" rel="noopener">Fai una donazione</a></div>
+    </div>
+    <div class="card">
       <h3>Installa l'app</h3>
       <p class="note"><b>iPhone:</b> in Safari tocca Condividi → "Aggiungi alla schermata Home".<br><b>Android:</b> in Chrome tocca ⋮ → "Aggiungi a schermata Home" o "Installa app".</p>
     </div>
@@ -187,6 +202,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   <footer>
     <span id="updated"></span>
     <span>Orari e canali possono cambiare: controlla sempre sulla piattaforma. Solo fonti ufficiali, niente pirateria.</span>
+    <span id="donatefoot" hidden>Dovelavedo è gratis. <a id="donatelink" href="#" target="_blank" rel="noopener">Sostienilo con una donazione</a>.</span>
     <span>Ogni mattina il palinsesto anche su Telegram: <a href="https://t.me/dovelavedo" target="_blank" rel="noopener">t.me/dovelavedo</a></span>
   </footer>
 </div>
@@ -201,6 +217,10 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <div class="toast" id="toast" hidden></div>
 
 <script>
+/* ---------- Impostazioni del sito ---------- */
+const DONATE_URL="";      // link della pagina donazioni (Ko-fi, PayPal.me…): vuoto = pulsante nascosto
+const GOATCOUNTER="";     // codice GoatCounter per le statistiche: vuoto = nessuna statistica
+
 /* ---------- Riferimenti (prezzi di listino a ottobre 2026) ---------- */
 const PLAT={
   "DAZN":"https://www.dazn.com","Sky":"https://www.sky.it","NOW":"https://www.nowtv.it","Prime Video":"https://www.primevideo.com",
@@ -411,7 +431,7 @@ function openSheet(e){
   if(!e)return;
   const a=access(e),f=isFav(e)?favOf(e):[],live=isLive(e),over=!live&&isOver(e);
   const os=offers(e).map(of=>{const inc=covers(of,e);const pk=of.k.map(x=>PKS[x].s+(x==="daznclub"?" (solo la tua squadra)":"")).join(" o ");
-    return `<div class="prow"><div><b>${of.p}</b><small>${inc?"Nei tuoi abbonamenti":"Serve "+pk}</small></div><a class="btn small" href="${PLAT[of.p]}" target="_blank" rel="noopener">Apri ${of.p} ↗</a></div>`}).join("");
+    return `<div class="prow"><div><b>${of.p}</b><small>${inc?"Nei tuoi abbonamenti":"Serve "+pk}</small></div><a class="btn small" href="${(e.l&&e.l[of.p])||PLAT[of.p]}" target="_blank" rel="noopener">${e.l&&e.l[of.p]?"Vai alla partita":"Apri "+of.p} ↗</a></div>`}).join("");
   const fr=(e.f||[]).map(p=>`<div class="prow"><div><b>${esc(p)}</b><small>Gratis</small></div>${PLAT[p]?`<a class="btn small" href="${PLAT[p]}" target="_blank" rel="noopener">Apri ↗</a>`:""}</div>`).join("");
   $("sheet").innerHTML=`<div class="sheet-bg" id="bg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <div class="meta">${live?'<span class="livetag">IN DIRETTA</span> ':""}${esc(e.c)} · ${dlabel(e.d)}${e.t?" · "+esc(e.t):" · orario da definire"}</div>
@@ -420,7 +440,7 @@ function openSheet(e){
     ${over?'<p class="note">Evento concluso.</p>':`<span class="pill ${a.cls}" style="align-self:flex-start">${a.why}</span>`}
     ${f.length?`<p class="note"><span class="star">★</span> Segui ${esc(f.join(", "))}</p>`:""}
     <div class="plist">${os}${fr}</div>
-    <p class="note">I link aprono la piattaforma: da lì cerchi l'evento. Presto i link porteranno direttamente alla partita.</p>
+    ${offers(e).some(of=>!(e.l&&e.l[of.p]))?'<p class="note">"Apri" porta alla piattaforma: da lì cerchi l\'evento.</p>':""}
     ${e.x?`<p class="note">${esc(e.x)}</p>`:""}
     <div class="actions">
       ${over?"":`<a class="btn ghost" href="${gcal(e)}" target="_blank" rel="noopener">Aggiungi al calendario</a>`}
@@ -473,6 +493,21 @@ $("editfav").onclick=()=>{go("profilo");$("favcard").scrollIntoView({block:"star
 $("q").oninput=()=>{st.q=$("q").value;renderList()};
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("sheet").hidden)closeSheet()});
 
+function b64e(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"")}
+function b64d(t){t=t.replace(/-/g,"+").replace(/_/g,"/");return JSON.parse(decodeURIComponent(escape(atob(t))))}
+(function(){
+  const m=location.hash.match(/^#p=([A-Za-z0-9_-]+)$/);
+  if(m){try{const o=b64d(m[1]);["subs","club","sports","fav"].forEach(k=>{if(o[k]!==undefined)st[k]=o[k]});st.seen=true;save();setTimeout(()=>toast("Preferenze importate"),600)}catch(e){}
+    try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}}
+  if(/FBAN|FBAV|Instagram|Telegram|WhatsApp|Line\/|; wv\)/i.test(navigator.userAgent))$("inapp").hidden=false;
+  if(DONATE_URL){$("donatecard").hidden=false;$("donatefoot").hidden=false;$("donatebtn").href=DONATE_URL;$("donatelink").href=DONATE_URL}
+  if(GOATCOUNTER){const sc=document.createElement("script");sc.async=true;sc.src="https://gc.zgo.at/count.js";sc.dataset.goatcounter="https://"+GOATCOUNTER+".goatcounter.com/count";document.head.appendChild(sc)}
+})();
+$("mylink").onclick=()=>{
+  const url=location.origin+location.pathname+"#p="+b64e({subs:st.subs,club:st.club,sports:st.sports,fav:st.fav});
+  const fb=()=>{const p=$("mylinktxt");p.hidden=false;p.textContent=url;const r=document.createRange();r.selectNodeContents(p);const s=getSelection();s.removeAllRanges();s.addRange(r);toast("Link selezionato: copialo")};
+  try{navigator.clipboard.writeText(url).then(()=>toast("Link copiato: aprilo sull'altro dispositivo"),fb)}catch(err){fb()}
+};
 function load(data){
   UPDATED=data.updated||"";
   EV=(data.events||[]).filter(e=>e&&e.d&&e.n&&e.s).map(e=>{if(!e.who&&(e.s==="Calcio"||e.s==="Pallavolo"||e.s==="Basket"))e.who=e.n.split("–").map(x=>x.trim());return e});

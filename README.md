@@ -17,6 +17,7 @@ L'app legge tutto da `data/events.json`. Ogni evento ha questi campi:
 | `f` | canali gratis (facoltativo) | `["Rai 1"]` |
 | `who` | squadre o atleti, se il nome non basta (facoltativo) | `["Leclerc","Ferrari"]` |
 | `x` | nota per l'utente (facoltativo) | `"Su TV8 in differita."` |
+| `l` | link diretti alla partita per piattaforma (facoltativo) | `{"DAZN":"https://www.dazn.com/..."}` |
 | `chg` | cambio di programma (facoltativo) | `"Spostata dalle 15:00 alle 18:00"` |
 
 Codici delle piattaforme: `seriea_dazn` (Serie A su DAZN, incluso MyClubPass), `seriea_sky` (Sky Calcio), `seriea_now` (NOW Sport), `dazn`, `sky_sport`, `now_sport`, `prime`, `eurosport`, `lbatv`, `vbtv`.
