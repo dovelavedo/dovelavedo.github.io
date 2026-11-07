@@ -1,29 +1,6 @@
 {
-"updated": "2026-11-06",
+"updated": "2026-11-07",
 "events": [
-{
-"d": "2026-11-06",
-"t": "20:30",
-"s": "Basket",
-"c": "EuroLeague",
-"n": "Virtus Bologna–Dubai",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-06",
-"t": "20:45",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Venezia–Udinese",
-"o": [
-"seriea_dazn",
-"seriea_sky",
-"seriea_now"
-]
-},
 {
 "d": "2026-11-07",
 "t": "12:40",
@@ -233,6 +210,17 @@
 },
 {
 "d": "2026-11-12",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Zalgiris",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-12",
 "t": "20:45",
 "s": "Calcio",
 "c": "Nations League",
@@ -242,6 +230,17 @@
 "Rai 1"
 ],
 "x": "A San Siro. In chiaro su Rai 1 e in streaming gratis su RaiPlay."
+},
+{
+"d": "2026-11-13",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Anadolu Efes–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
 },
 {
 "d": "2026-11-15",
