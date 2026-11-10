@@ -1,0 +1,669 @@
+{
+"aek-atene-calcio": {
+"c": [
+"Champions League"
+],
+"n": "AEK Atene",
+"s": "Calcio"
+},
+"anadolu-efes-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Anadolu Efes",
+"s": "Basket"
+},
+"arezzo-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Arezzo",
+"s": "Calcio"
+},
+"ascoli-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Ascoli",
+"s": "Calcio"
+},
+"asvel-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "ASVEL",
+"s": "Basket"
+},
+"atalanta-calcio": {
+"c": [
+"Serie A",
+"Conference League"
+],
+"n": "Atalanta",
+"s": "Calcio"
+},
+"avellino-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Avellino",
+"s": "Calcio"
+},
+"bc-roma-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "BC Roma",
+"s": "Basket"
+},
+"belgio-calcio": {
+"c": [
+"Nations League"
+],
+"n": "Belgio",
+"s": "Calcio"
+},
+"benevento-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Benevento",
+"s": "Calcio"
+},
+"bologna-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Bologna",
+"s": "Calcio"
+},
+"borac-calcio": {
+"c": [
+"Conference League"
+],
+"n": "Borac",
+"s": "Calcio"
+},
+"borussia-dortmund-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Borussia Dortmund",
+"s": "Calcio"
+},
+"cagliari-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Cagliari",
+"s": "Calcio"
+},
+"cantu-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Cantù",
+"s": "Basket"
+},
+"carrarese-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Carrarese",
+"s": "Calcio"
+},
+"catanzaro-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Catanzaro",
+"s": "Calcio"
+},
+"cesena-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Cesena",
+"s": "Calcio"
+},
+"cisterna-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Cisterna",
+"s": "Pallavolo"
+},
+"civitanova-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Civitanova",
+"s": "Pallavolo"
+},
+"club-brugge-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Club Brugge",
+"s": "Calcio"
+},
+"como-calcio": {
+"c": [
+"Serie A",
+"Champions League"
+],
+"n": "Como",
+"s": "Calcio"
+},
+"cremonese-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Cremonese",
+"s": "Calcio"
+},
+"cuneo-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Cuneo",
+"s": "Pallavolo"
+},
+"empoli-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Empoli",
+"s": "Calcio"
+},
+"fenerbahce-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Fenerbahce",
+"s": "Basket"
+},
+"fiorentina-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Fiorentina",
+"s": "Calcio"
+},
+"francia-calcio": {
+"c": [
+"Nations League"
+],
+"n": "Francia",
+"s": "Calcio"
+},
+"frosinone-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Frosinone",
+"s": "Calcio"
+},
+"genoa-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Genoa",
+"s": "Calcio"
+},
+"hapoel-beer-sheva-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Hapoel Beer-Sheva",
+"s": "Calcio"
+},
+"hapoel-tel-aviv-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Hapoel Tel Aviv",
+"s": "Basket"
+},
+"hellas-verona-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Hellas Verona",
+"s": "Calcio"
+},
+"inter-calcio": {
+"c": [
+"Serie A",
+"Champions League"
+],
+"n": "Inter",
+"s": "Calcio"
+},
+"italia-calcio": {
+"c": [
+"Nations League"
+],
+"n": "Italia",
+"s": "Calcio"
+},
+"juve-stabia-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Juve Stabia",
+"s": "Calcio"
+},
+"juventus-calcio": {
+"c": [
+"Serie A",
+"Europa League"
+],
+"n": "Juventus",
+"s": "Calcio"
+},
+"lazio-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Lazio",
+"s": "Calcio"
+},
+"lecce-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Lecce",
+"s": "Calcio"
+},
+"manchester-city-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Manchester City",
+"s": "Calcio"
+},
+"mantova-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Mantova",
+"s": "Calcio"
+},
+"maxima-roma-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Maxima Roma",
+"s": "Basket"
+},
+"milan-calcio": {
+"c": [
+"Serie A",
+"Europa League"
+],
+"n": "Milan",
+"s": "Calcio"
+},
+"milano-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Milano",
+"s": "Pallavolo"
+},
+"modena-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Modena",
+"s": "Calcio"
+},
+"modena-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Modena",
+"s": "Pallavolo"
+},
+"monza-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Monza",
+"s": "Calcio"
+},
+"monza-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Monza",
+"s": "Pallavolo"
+},
+"napoli-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Napoli",
+"s": "Basket"
+},
+"napoli-calcio": {
+"c": [
+"Serie A",
+"Champions League"
+],
+"n": "Napoli",
+"s": "Calcio"
+},
+"olimpia-milano-basket": {
+"c": [
+"EuroLeague",
+"Serie A basket"
+],
+"n": "Olimpia Milano",
+"s": "Basket"
+},
+"olympiacos-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Olympiacos",
+"s": "Calcio"
+},
+"omonia-nicosia-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Omonia Nicosia",
+"s": "Calcio"
+},
+"padova-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Padova",
+"s": "Calcio"
+},
+"padova-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Padova",
+"s": "Pallavolo"
+},
+"palermo-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Palermo",
+"s": "Calcio"
+},
+"panathinaikos-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Panathinaikos",
+"s": "Basket"
+},
+"parma-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Parma",
+"s": "Calcio"
+},
+"partizan-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Partizan",
+"s": "Basket"
+},
+"perugia-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Perugia",
+"s": "Pallavolo"
+},
+"piacenza-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Piacenza",
+"s": "Pallavolo"
+},
+"pisa-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Pisa",
+"s": "Calcio"
+},
+"pordenone-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Pordenone",
+"s": "Pallavolo"
+},
+"psg-calcio": {
+"c": [
+"Champions League"
+],
+"n": "PSG",
+"s": "Calcio"
+},
+"real-betis-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Real Betis",
+"s": "Calcio"
+},
+"reggio-emilia-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Reggio Emilia",
+"s": "Basket"
+},
+"riga-calcio": {
+"c": [
+"Conference League"
+],
+"n": "Riga",
+"s": "Calcio"
+},
+"roma-calcio": {
+"c": [
+"Serie A",
+"Champions League"
+],
+"n": "Roma",
+"s": "Calcio"
+},
+"sampdoria-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Sampdoria",
+"s": "Calcio"
+},
+"sassuolo-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Sassuolo",
+"s": "Calcio"
+},
+"scafati-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Scafati",
+"s": "Basket"
+},
+"sporting-lisbona-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Sporting Lisbona",
+"s": "Calcio"
+},
+"stella-rossa-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Stella Rossa",
+"s": "Basket"
+},
+"stoccarda-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Stoccarda",
+"s": "Calcio"
+},
+"sudtirol-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Sudtirol",
+"s": "Calcio"
+},
+"sunderland-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Sunderland",
+"s": "Calcio"
+},
+"torino-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Torino",
+"s": "Calcio"
+},
+"tortona-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Tortona",
+"s": "Basket"
+},
+"trentino-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Trentino",
+"s": "Pallavolo"
+},
+"trento-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Trento",
+"s": "Basket"
+},
+"treviso-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Treviso",
+"s": "Basket"
+},
+"trieste-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Trieste",
+"s": "Basket"
+},
+"udine-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Udine",
+"s": "Basket"
+},
+"udinese-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Udinese",
+"s": "Calcio"
+},
+"valencia-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Valencia",
+"s": "Basket"
+},
+"varese-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Varese",
+"s": "Basket"
+},
+"venezia-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Venezia",
+"s": "Basket"
+},
+"venezia-calcio": {
+"c": [
+"Serie A"
+],
+"n": "Venezia",
+"s": "Calcio"
+},
+"verona-basket": {
+"c": [
+"Serie A basket"
+],
+"n": "Verona",
+"s": "Basket"
+},
+"verona-volley": {
+"c": [
+"SuperLega"
+],
+"n": "Verona",
+"s": "Pallavolo"
+},
+"vicenza-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Vicenza",
+"s": "Calcio"
+},
+"virtus-bologna-basket": {
+"c": [
+"EuroLeague",
+"Serie A basket"
+],
+"n": "Virtus Bologna",
+"s": "Basket"
+},
+"virtus-entella-calcio": {
+"c": [
+"Serie B"
+],
+"n": "Virtus Entella",
+"s": "Calcio"
+},
+"zalgiris-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Zalgiris",
+"s": "Basket"
+}
+}

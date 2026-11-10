@@ -45,3 +45,5 @@ Crea l'immagine con gli eventi principali del giorno (serve la libreria Pillow).
 Serie A (con le partite anche su Sky/NOW), Serie B, Champions, Europa e Conference League delle italiane, Nazionale, Formula 1 e MotoGP (qualifiche, Sprint, gare), tennis (tornei principali e italiani, Coppa Davis), EuroLeague di Milano e Virtus, Serie A basket, SuperLega.
 
 Se cambiano pacchetti, prezzi o codici, vanno aggiornati sia in `index.html` (PK, OFFERS, PLAT, MONTH) sia in `tools/common.py`.
+
+`tools/build.py` crea anche pagine fisse che restano sempre online: una per competizione (es. `dove-vedere/serie-a.html`) e una per ogni squadra apparsa almeno una volta nel palinsesto (es. `dove-vedere/inter-calcio.html`). L'elenco delle squadre si accumula in `data/teams.json`: non va modificato a mano.
