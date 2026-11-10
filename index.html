@@ -140,6 +140,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 
   <div class="banner" id="inapp" hidden><b>Le tue scelte potrebbero non essere salvate</b>Stai usando il browser interno di un'app (WhatsApp, Telegram, Instagram…). Apri il link in Safari o Chrome: tocca ⋯ e scegli "Apri nel browser".</div>
 
+  <div class="banner" id="stale" hidden></div>
+
   <section id="v-oggi" class="stack">
     <input class="search" type="search" id="q" placeholder="Cerca squadra, atleta o competizione" aria-label="Cerca squadra, atleta o competizione">
     <div class="stack" id="livewrap" hidden>
@@ -161,6 +163,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <div class="actions"><button class="btn ghost small" type="button" id="editfav">Modifica squadre e atleti</button></div>
     </div>
     <div class="stack" id="season"></div>
+    <div class="card" id="bill" hidden></div>
     <div class="dayhead"><h2>I tuoi prossimi eventi</h2><span id="ncount"></span></div>
     <div class="list" id="minelist"></div>
     <p class="note">Per non perderti un evento, aprilo e tocca "Aggiungi al calendario".</p>
@@ -203,6 +206,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
     <span id="updated"></span>
     <span>Orari e canali possono cambiare: controlla sempre sulla piattaforma. Solo fonti ufficiali, niente pirateria.</span>
     <span id="donatefoot" hidden>Dovelavedo è gratis. <a id="donatelink" href="#" target="_blank" rel="noopener">Sostienilo con una donazione</a>.</span>
+    <span><a href="chi-siamo.html">Chi siamo, privacy e contatti</a> · <a href="dove-vedere/">Tutte le partite</a></span>
+    <span>Dovelavedo non è affiliato a DAZN, Sky, NOW, Prime Video, Rai o altre emittenti: i marchi sono dei rispettivi proprietari.</span>
     <span>Ogni mattina il palinsesto anche su Telegram: <a href="https://t.me/dovelavedo" target="_blank" rel="noopener">t.me/dovelavedo</a></span>
   </footer>
 </div>
@@ -249,13 +254,15 @@ const OFFERS={
 const SERIEA=["Atalanta","Bologna","Cagliari","Como","Fiorentina","Frosinone","Genoa","Inter","Juventus","Lazio","Lecce","Milan","Monza","Napoli","Parma","Roma","Sassuolo","Torino","Udinese","Venezia"];
 const FAVG=[
   {s:"Calcio",l:"Calcio · Serie A",i:SERIEA},{s:"Calcio",l:"Calcio · Nazionale",i:["Italia"]},
-  {s:"Tennis",l:"Tennis",i:["Sinner","Alcaraz","Zverev","Shelton","Musetti","Paolini"]},
-  {s:"Motori",l:"Formula 1 · scuderie e piloti",i:["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"]},
+  {s:"Tennis",l:"Tennis",i:["Italia","Sinner","Cobolli","Musetti","Paolini","Alcaraz","Zverev","Shelton","Medvedev"]},
+  {s:"Motori",l:"Formula 1 · scuderie e piloti",i:["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"]},{s:"Motori",l:"MotoGP · moto e piloti",i:["Ducati","Aprilia","Bagnaia","Marquez","Bezzecchi"]},
   {s:"Basket",l:"Basket",i:["Olimpia Milano","Virtus Bologna"]},
   {s:"Pallavolo",l:"Pallavolo · SuperLega",i:["Cisterna","Civitanova","Cuneo","Milano","Modena","Monza","Padova","Perugia","Piacenza","Pordenone","Trentino","Verona"]}
 ];
 const SPORTS=["Calcio","Tennis","Motori","Basket","Pallavolo"];
-const CUPS={Inter:"CL",Roma:"CL",Juventus:"EL",Atalanta:"ECL"};
+const CUPS={Inter:"CL",Roma:"CL",Napoli:"CL",Como:"CL",Juventus:"EL",Milan:"EL",Atalanta:"ECL"};
+// Costo mensile indicativo dei pacchetti, per il conto degli abbonamenti (LBA TV: 99 € a stagione divisi su 12 mesi)
+const MONTH={daznfull:46.99,daznclub:29.99,skycalcio:14.90,skysport:24.99,nowsport:24.99,prime:4.99,lbatv:8.25,vbtv:0};
 const DUR={Calcio:115,Pallavolo:150,Motori:120,Tennis:180,Basket:120};
 const WD=["Dom","Lun","Mar","Mer","Gio","Ven","Sab"],WDL=["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"],MO=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 
@@ -283,6 +290,8 @@ const isFav=e=>favOf(e).length>0&&st.sports.includes(e.s);
 const plain=f=>f.split(":").slice(1).join(":");
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const offers=e=>(e.o||[]).map(c=>OFFERS[c]).filter(Boolean);
+const slug=e=>(e.n+" "+e.c).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")+"-"+e.d;
+const pageUrl=e=>"https://dovelavedo.github.io/dove-vedere/"+slug(e)+".html";
 const sortEv=(a,b)=>(a.d+(a.t||"99")).localeCompare(b.d+(b.t||"99"));
 
 function covers(of,e){return of.k.some(k=>has(k)&&(k!=="daznclub"||(e.who||[]).includes(st.club)))}
@@ -377,8 +386,50 @@ function season(){
     out.push({h:t,rows,sug});
   });
   if(st.fav.includes("Calcio:Italia"))out.push({h:"Italia",rows:[["Nations League","Gratis su Rai 1 e RaiPlay","free"]],sug:[]});
-  if(st.fav.some(f=>f.startsWith("Motori:")))out.push({h:"Formula 1",rows:[["Mondiale · tutte le gare",skyS?"Tutte, con prove e qualifiche":"In diretta solo GP d'Italia e Sprint su TV8, il resto in differita",skyS?"ok":"part"]],sug:skyS?[]:[`Per tutte le gare in diretta: ${price("nowsport")} oppure ${price("skysport")}.`]});
+  if(st.fav.some(f=>f.startsWith("Motori:")&&["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"].includes(plain(f))))out.push({h:"Formula 1",rows:[["Mondiale · tutte le gare",skyS?"Tutte, con prove e qualifiche":"In diretta solo GP d'Italia e Sprint su TV8, il resto in differita",skyS?"ok":"part"]],sug:skyS?[]:[`Per tutte le gare in diretta: ${price("nowsport")} oppure ${price("skysport")}.`]});
   $("season").innerHTML=out.length?`<div class="dayhead"><h2>La tua stagione</h2><span>con i tuoi abbonamenti</span></div>`+out.map(c=>`<div class="card"><h3>${esc(c.h)}</h3><div class="srows">${c.rows.map(r=>`<div class="srow"><b>${r[0]}</b><span class="s-${r[2]}">${r[1]}</span></div>`).join("")}</div>${c.sug.length?`<div class="sugg">${c.sug.map(s=>`<p>${s}</p>`).join("")}</div>`:""}</div>`).join("")+`<p class="note">Prezzi di listino a ottobre 2026, possono cambiare.</p>`:"";
+}
+/* ---------- Il conto degli abbonamenti ---------- */
+const eur=n=>n.toFixed(2).replace(".",",")+" €";
+function bill(){
+  const box=$("bill");
+  const favMode=EV.some(e=>isFav(e)&&!isOver(e));
+  const T=EV.filter(e=>!isOver(e)&&st.sports.includes(e.s)&&(favMode?isFav(e):true));
+  if(!T.length){box.hidden=true;return}
+  const saFav=st.fav.filter(f=>f.startsWith("Calcio:")&&SERIEA.includes(plain(f))).map(plain);
+  const club=has("daznclub")?st.club:saFav.length===1?saFav[0]:null;
+  const cand=Object.keys(MONTH).filter(k=>k!=="daznclub"||club);
+  const cov=set=>T.filter(e=>(e.f&&e.f.length)||offers(e).some(of=>of.k.some(k=>set.includes(k)&&(k!=="daznclub"||(e.who||[]).includes(club))))).length;
+  const cost=set=>set.reduce((a,k)=>a+(MONTH[k]||0),0);
+  const names=set=>set.length?set.map(k=>PKS[k].s+(k==="vbtv"?" (prezzo a parte)":"")).join(" + "):"nessun abbonamento";
+  const all=[];for(let m=0;m<(1<<cand.length);m++){const set=cand.filter((_,i)=>m>>i&1);all.push({set,c:cov(set),p:cost(set)})}
+  const better=(a,b)=>a.p-b.p||a.set.length-b.set.length;
+  const mine=st.subs.filter(k=>k in MONTH&&(k!=="daznclub"||club)),nowC=cov(mine),nowP=cost(mine);
+  const maxC=Math.max(...all.map(x=>x.c));
+  const full=all.filter(x=>x.c===maxC).sort(better)[0];
+  const same=all.filter(x=>x.c>=nowC&&x.set.every(k=>mine.includes(k))).sort(better)[0];
+  const mid=all.filter(x=>x.c>=Math.ceil(maxC*.8)&&x.c<maxC).sort(better)[0];
+  const free=cov([]);
+  const rows=[`<div class="srow"><b>Oggi vedi</b><span class="${nowC===maxC?"s-ok":"s-part"}">${nowC} di ${T.length} eventi${mine.length?" · circa "+eur(nowP)+" al mese":""}</span></div>`];
+  if(free)rows.push(`<div class="srow"><b>Gratis per tutti</b><span class="s-free">${free} di ${T.length}</span></div>`);
+  const tips=[];
+  if(same&&same.set.length<mine.length){const drop=mine.filter(k=>!same.set.includes(k));
+    tips.push(`<p><b>Puoi risparmiare ${eur(nowP-same.p)} al mese.</b> Per quello che segui, ${names(drop)} non aggiunge nessun evento a quelli che vedi già con ${names(same.set)}.</p>`)}
+  if(nowC<maxC){
+    const base=same?same.set:mine;
+    const up=all.filter(x=>x.c===maxC&&base.every(k=>x.set.includes(k))).sort(better)[0];
+    const add=up?up.set.filter(k=>!base.includes(k)):[];
+    if(base.length&&up)tips.push(`<p><b>Per vedere tutto</b> (${maxC} eventi) ti manca ${names(add)}: in totale circa ${eur(up.p)} al mese.</p>`);
+    if(!base.length||!up||full.p<up.p-1)tips.push(`<p><b>${base.length?"Partendo da zero, la combinazione più economica per vedere tutto":"Per vedere tutto"}</b>${base.length?"":" ("+maxC+" eventi)"}: ${names(full.set)}, circa ${eur(full.p)} al mese.</p>`);
+    if(mid&&mid.p<=full.p*.7&&mid.c>nowC)tips.push(`<p><b>Il compromesso:</b> con ${names(mid.set)} ne vedi ${mid.c} a circa ${eur(mid.p)} al mese.</p>`);
+  }else if(full.p<nowP-.5&&!(same&&same.set.length<mine.length)){
+    tips.push(`<p><b>Stessi eventi a meno:</b> ${names(full.set)}, circa ${eur(full.p)} al mese invece di ${eur(nowP)}.</p>`);
+  }else if(!tips.length)tips.push(`<p>Con i tuoi abbonamenti vedi già tutto quello che si può vedere, e non stai pagando doppioni.</p>`);
+  if(maxC<T.length)tips.push(`<p>${T.length-maxC} ${T.length-maxC===1?"evento non ha":"eventi non hanno"} ancora un'emittente confermata.</p>`);
+  box.hidden=false;
+  box.innerHTML=`<h3>Il conto degli abbonamenti</h3><p class="note">${favMode?"Calcolato sugli eventi di chi segui":"Calcolato sugli sport che segui"} in programma nelle prossime settimane.</p>
+    <div class="srows">${rows.join("")}</div><div class="sugg">${tips.join("")}</div>
+    <p class="note">Prezzi di listino mensili a ottobre 2026: promozioni e vincoli cambiano spesso. Sky Calcio e Sky Sport richiedono anche Sky TV. LBA TV costa 99 € a stagione. Il prezzo di VBTV non è nel conto: lo trovi sul suo sito.</p>`;
 }
 function renderMine(){
   const items=EV.filter(e=>isFav(e)&&!isOver(e)).sort(sortEv);
@@ -386,7 +437,7 @@ function renderMine(){
   $("ncount").textContent=items.length?`${items.length} eventi`:"";
   $("minelist").innerHTML=items.length?items.map(e=>rowHTML(e,true)).join(""):`<div class="empty">Nessun evento in programma per chi segui.</div>`;
   bindRows($("minelist"));
-  season();
+  season();bill();
 }
 
 /* ---------- Profilo ---------- */
@@ -426,7 +477,7 @@ function gcal(e){
   else{const x=dt(e.d);x.setUTCDate(x.getUTCDate()+1);dates=`${e.d.replace(/-/g,"")}/${x.toISOString().slice(0,10).replace(/-/g,"")}`}
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.n+" · "+e.c)}&dates=${dates}&details=${encodeURIComponent("Dove vederla: "+platsLine(e)+"\nhttps://dovelavedo.github.io")}${e.t?"&ctz=Europe/Rome":""}`;
 }
-function shareText(e){return `${e.n} (${e.c}) · ${dlabel(e.d)}${e.t?" alle "+e.t:""}. Dove vederla: ${platsLine(e)}. https://dovelavedo.github.io`}
+function shareText(e){return `${e.n} (${e.c}) · ${dlabel(e.d)}${e.t?" alle "+e.t:""}. Dove vederla: ${platsLine(e)}. ${pageUrl(e)}`}
 function openSheet(e){
   if(!e)return;
   const a=access(e),f=isFav(e)?favOf(e):[],live=isLive(e),over=!live&&isOver(e);
@@ -513,6 +564,8 @@ function load(data){
   EV=(data.events||[]).filter(e=>e&&e.d&&e.n&&e.s).map(e=>{if(!e.who&&(e.s==="Calcio"||e.s==="Pallavolo"||e.s==="Basket"))e.who=e.n.split("–").map(x=>x.trim());return e});
   const today=TODAY();
   DATES=[...new Set(EV.map(e=>e.d))].filter(d=>d>=today).sort();
+  const age=UPDATED?Math.round((dt(today)-dt(UPDATED))/864e5):0;
+  if(age>=2){$("stale").hidden=false;$("stale").innerHTML=`<b>Palinsesto non aggiornato da ${age} giorni</b>Orari e canali potrebbero essere cambiati: controlla sulla piattaforma prima della partita.`}
   renderProfile();render();
   if(!st.seen)onboard(0);
 }

@@ -36,6 +36,90 @@
 ]
 },
 {
+"d": "2026-11-14",
+"t": "20:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Reggio Emilia–Varese",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-14",
+"t": "20:30",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "BC Roma–Verona",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-15",
+"t": "16:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Treviso–Scafati",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-15",
+"t": "17:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Napoli–Trieste",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-15",
+"t": "17:30",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Cantù–Tortona",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-15",
+"t": "18:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Venezia–Maxima Roma",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-15",
+"t": "18:15",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Udine–Olimpia Milano",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-15",
+"t": "19:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Trento–Virtus Bologna",
+"o": [
+"lbatv"
+]
+},
+{
 "d": "2026-11-15",
 "t": "20:45",
 "s": "Calcio",
@@ -71,7 +155,131 @@
 "Jodar"
 ],
 "x": "Dal 15 al 22 novembre. Qualificati: Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe, Jodar. Sinner assente per infortunio. Sorteggio dei gironi giovedì 12 novembre alle 12. Tutto il torneo su Sky e NOW; in chiaro su Mediaset le 8 partite migliori, finale compresa.",
-"chg": "2026-11-10"
+"chg": "In chiaro su Mediaset, non più sulla Rai",
+"chgd": "2026-11-10"
+},
+{
+"d": "2026-11-16",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Pordenone",
+"o": [
+"vbtv"
+],
+"f": [
+"RaiPlay"
+],
+"x": "Recupero della 4ª giornata. Orario da confermare."
+},
+{
+"d": "2026-11-17",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Stella Rossa",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-17",
+"t": "21:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Panathinaikos",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-19",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Fenerbahce",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-19",
+"t": "21:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Valencia–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-20",
+"t": "20:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Cesena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-20",
+"t": "20:45",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Verona",
+"o": [
+"vbtv"
+],
+"f": [
+"Rai Sport"
+]
+},
+{
+"d": "2026-11-21",
+"t": "05:00",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Las Vegas · qualifiche",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "All'alba in Italia. Su TV8 in differita."
+},
+{
+"d": "2026-11-21",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Vicenza",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Virtus Entella",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-11-21",
@@ -95,12 +303,77 @@
 },
 {
 "d": "2026-11-21",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Juve Stabia",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Cremonese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Palermo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
 "t": "18:00",
 "s": "Calcio",
 "c": "Serie A",
 "n": "Parma–Roma",
 "o": [
 "seriea_dazn"
+]
+},
+{
+"d": "2026-11-21",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Pisa",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-21",
+"t": "20:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Trieste–Reggio Emilia",
+"o": [
+"lbatv"
 ]
 },
 {
@@ -117,6 +390,25 @@
 },
 {
 "d": "2026-11-22",
+"t": "05:00",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Las Vegas · gara",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "All'alba in Italia. Su TV8 in differita."
+},
+{
+"d": "2026-11-22",
 "t": "12:30",
 "s": "Calcio",
 "c": "Serie A",
@@ -124,6 +416,17 @@
 "o": [
 "seriea_dazn"
 ]
+},
+{
+"d": "2026-11-22",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Mantova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-11-22",
@@ -147,6 +450,80 @@
 },
 {
 "d": "2026-11-22",
+"t": "16:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Tortona–Olimpia Milano",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-22",
+"t": "17:00",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Trentino",
+"o": [
+"dazn",
+"vbtv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "17:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Trento–Napoli",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Padova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-22",
+"t": "17:30",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Scafati–Cantù",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:00",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Pordenone",
+"o": [
+"vbtv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Maxima Roma–Treviso",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-22",
 "t": "18:00",
 "s": "Calcio",
 "c": "Serie A",
@@ -155,6 +532,72 @@
 "seriea_dazn",
 "seriea_sky",
 "seriea_now"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:00",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Monza",
+"o": [
+"vbtv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:00",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Perugia",
+"o": [
+"vbtv"
+],
+"f": [
+"Rai Sport"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Virtus Bologna–BC Roma",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "18:15",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Verona–Udine",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-22",
+"t": "19:00",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Cisterna",
+"o": [
+"dazn",
+"vbtv"
+]
+},
+{
+"d": "2026-11-22",
+"t": "19:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Varese–Venezia",
+"o": [
+"lbatv"
 ]
 },
 {
@@ -191,7 +634,8 @@
 "Jodar"
 ],
 "x": "Orario da confermare. In chiaro su Mediaset (finale compresa) e su Sky e NOW.",
-"chg": "2026-11-10"
+"chg": "In chiaro su Mediaset, non più sulla Rai",
+"chgd": "2026-11-10"
 },
 {
 "d": "2026-11-23",
@@ -204,6 +648,251 @@
 "seriea_sky",
 "seriea_now"
 ]
+},
+{
+"d": "2026-11-24",
+"t": "16:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Cechia–Canada · quarti",
+"o": [],
+"f": [
+"SuperTennis"
+]
+},
+{
+"d": "2026-11-24",
+"t": "19:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Catanzaro",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "19:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Stella Rossa–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-24",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Empoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Ascoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Sudtirol",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Carrarese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Hellas Verona",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-24",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "ASVEL–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-24",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Como–AEK Atene",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-24",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Manchester City–Napoli",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-25",
+"t": "16:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Italia–Corea del Sud · quarti",
+"o": [],
+"f": [
+"SuperTennis"
+],
+"who": [
+"Italia",
+"Cobolli",
+"Musetti"
+],
+"x": "Tutta la Coppa Davis è in chiaro su SuperTennis. Se l'Italia passa, semifinale e finale anche su Rai 1."
+},
+{
+"d": "2026-11-25",
+"t": "19:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Avellino",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-25",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Arezzo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-25",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Sampdoria",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-25",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Modena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-25",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Inter–Stoccarda",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-25",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "PSG–Roma",
+"o": [
+"prime"
+],
+"x": "In esclusiva su Prime Video: non è su Sky né su NOW."
+},
+{
+"d": "2026-11-26",
+"t": "10:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Gran Bretagna–Germania · quarti",
+"o": [],
+"f": [
+"SuperTennis"
+],
+"who": [
+"Zverev"
+]
+},
+{
+"d": "2026-11-26",
+"t": "17:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Austria–Spagna · quarti",
+"o": [],
+"f": [
+"SuperTennis"
+],
+"who": [
+"Alcaraz"
+],
+"x": "Non prima delle 17."
+},
+{
+"d": "2026-11-26",
+"t": "18:45",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Olympiacos–Milan",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
 },
 {
 "d": "2026-11-26",
@@ -220,6 +909,17 @@
 "d": "2026-11-26",
 "t": "21:00",
 "s": "Calcio",
+"c": "Conference League",
+"n": "Borac–Atalanta",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-11-26",
+"t": "21:00",
+"s": "Calcio",
 "c": "Europa League",
 "n": "Juventus–Omonia Nicosia",
 "o": [
@@ -229,15 +929,19 @@
 "x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
 },
 {
-"d": "2026-11-26",
-"t": "21:00",
-"s": "Calcio",
-"c": "Conference League",
-"n": "Borac–Atalanta",
-"o": [
-"sky_sport",
-"now_sport"
-]
+"d": "2026-11-27",
+"t": "16:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Prima semifinale",
+"o": [],
+"f": [
+"SuperTennis"
+],
+"who": [
+"Italia"
+],
+"x": "Chi vince Italia–Corea del Sud contro chi vince Cechia–Canada. Con l'Italia in campo, anche su Rai 1."
 },
 {
 "d": "2026-11-27",
@@ -253,6 +957,50 @@
 },
 {
 "d": "2026-11-28",
+"t": "12:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Seconda semifinale",
+"o": [],
+"f": [
+"SuperTennis"
+]
+},
+{
+"d": "2026-11-28",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Virtus Entella",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-28",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Juve Stabia",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-28",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Hellas Verona",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-28",
 "t": "15:00",
 "s": "Calcio",
 "c": "Serie A",
@@ -263,6 +1011,36 @@
 },
 {
 "d": "2026-11-28",
+"t": "15:00",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Valencia · Sprint",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Ultimo GP della stagione. Qualifiche alle 10:50. Su TV8: da verificare se in diretta o in differita."
+},
+{
+"d": "2026-11-28",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Cesena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-28",
 "t": "18:00",
 "s": "Calcio",
 "c": "Serie A",
@@ -270,6 +1048,17 @@
 "o": [
 "seriea_dazn"
 ]
+},
+{
+"d": "2026-11-28",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-11-28",
@@ -295,6 +1084,51 @@
 },
 {
 "d": "2026-11-29",
+"t": "14:00",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Valencia · gara",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Ultimo GP della stagione. Su TV8: da verificare se in diretta o in differita."
+},
+{
+"d": "2026-11-29",
+"t": "15:00",
+"s": "Tennis",
+"c": "Coppa Davis · Bologna",
+"n": "Finale",
+"o": [],
+"f": [
+"SuperTennis"
+],
+"who": [
+"Italia"
+],
+"x": "Con l'Italia in campo, anche su Rai 1."
+},
+{
+"d": "2026-11-29",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Padova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-29",
 "t": "15:00",
 "s": "Calcio",
 "c": "Serie A",
@@ -302,6 +1136,28 @@
 "o": [
 "seriea_dazn"
 ]
+},
+{
+"d": "2026-11-29",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Mantova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-29",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Cremonese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-11-29",
@@ -317,6 +1173,17 @@
 },
 {
 "d": "2026-11-29",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Pisa",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-29",
 "t": "20:45",
 "s": "Calcio",
 "c": "Serie A",
@@ -324,6 +1191,17 @@
 "o": [
 "seriea_dazn"
 ]
+},
+{
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
 },
 {
 "d": "2026-11-29",
@@ -345,6 +1223,61 @@
 "x": "Su TV8 in differita."
 },
 {
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Milano",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
+},
+{
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
+},
+{
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Modena",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
+},
+{
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
+},
+{
+"d": "2026-11-29",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Trentino",
+"o": [
+"vbtv"
+],
+"x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
+},
+{
 "d": "2026-11-30",
 "t": "18:30",
 "s": "Calcio",
@@ -356,12 +1289,119 @@
 },
 {
 "d": "2026-11-30",
+"t": "20:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Avellino",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-11-30",
 "t": "20:45",
 "s": "Calcio",
 "c": "Serie A",
 "n": "Cagliari–Milan",
 "o": [
 "seriea_dazn"
+]
+},
+{
+"d": "2026-12-03",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Hapoel Tel Aviv–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-04",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Partizan",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-05",
+"t": "19:30",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Venezia–Tortona",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-06",
+"t": "12:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Napoli–Verona",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-12-06",
+"t": "16:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Cantù–Varese",
+"o": [
+"lbatv",
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-06",
+"t": "17:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Reggio Emilia–Maxima Roma",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-12-06",
+"t": "17:30",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Olimpia Milano–Scafati",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-12-06",
+"t": "18:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "BC Roma–Trento",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-12-06",
+"t": "19:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Udine–Trieste",
+"o": [
+"lbatv"
 ]
 },
 {
@@ -382,6 +1422,95 @@
 "Antonelli"
 ],
 "x": "Su TV8 in differita."
+},
+{
+"d": "2026-12-07",
+"t": "20:00",
+"s": "Basket",
+"c": "Serie A basket",
+"n": "Treviso–Virtus Bologna",
+"o": [
+"lbatv"
+]
+},
+{
+"d": "2026-12-08",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Napoli–Club Brugge",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-08",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Roma–Sporting Lisbona",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-09",
+"t": "18:45",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Real Betis–Como",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-09",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Borussia Dortmund–Inter",
+"o": [
+"prime"
+],
+"x": "In esclusiva su Prime Video: non è su Sky né su NOW."
+},
+{
+"d": "2026-12-10",
+"t": "18:45",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Hapoel Beer-Sheva–Juventus",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2026-12-10",
+"t": "18:45",
+"s": "Calcio",
+"c": "Conference League",
+"n": "Riga–Atalanta",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-10",
+"t": "21:00",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Milan–Sunderland",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
 }
 ]
 }

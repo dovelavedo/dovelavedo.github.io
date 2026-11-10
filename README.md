@@ -21,3 +21,27 @@ L'app legge tutto da `data/events.json`. Ogni evento ha questi campi:
 | `chg` | cambio di programma (facoltativo) | `"Spostata dalle 15:00 alle 18:00"` |
 
 Codici delle piattaforme: `seriea_dazn` (Serie A su DAZN, incluso MyClubPass), `seriea_sky` (Sky Calcio), `seriea_now` (NOW Sport), `dazn`, `sky_sport`, `now_sport`, `prime`, `eurosport`, `lbatv`, `vbtv`.
+
+`chgd` (facoltativo) è la data in cui è stato segnato il cambio: dopo 3 giorni si tolgono `chg` e `chgd`.
+
+## Dopo ogni modifica al palinsesto
+
+```
+python3 tools/build.py
+```
+
+Rigenera le pagine "Dove vedere X–Y" nella cartella `dove-vedere/` (una per evento, pensate per Google), l'elenco e `sitemap.xml`. Vanno pubblicate insieme a `data/events.json`. Le pagine degli eventi passati restano online.
+
+## Card "Oggi in TV"
+
+```
+python3 tools/card.py [AAAA-MM-GG] [file.png]
+```
+
+Crea l'immagine con gli eventi principali del giorno (serve la libreria Pillow). Stampa il percorso del file, oppure `NESSUN_EVENTO`.
+
+## Cosa copriamo
+
+Serie A (con le partite anche su Sky/NOW), Serie B, Champions, Europa e Conference League delle italiane, Nazionale, Formula 1 e MotoGP (qualifiche, Sprint, gare), tennis (tornei principali e italiani, Coppa Davis), EuroLeague di Milano e Virtus, Serie A basket, SuperLega.
+
+Se cambiano pacchetti, prezzi o codici, vanno aggiornati sia in `index.html` (PK, OFFERS, PLAT, MONTH) sia in `tools/common.py`.
