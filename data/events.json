@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09",
+"updated": "2026-11-10",
 "events": [
 {
 "d": "2026-11-12",
@@ -58,14 +58,20 @@
 "now_sport"
 ],
 "f": [
-"Rai"
+"Mediaset"
 ],
 "who": [
 "Alcaraz",
 "Zverev",
-"Shelton"
+"Shelton",
+"Medvedev",
+"Cobolli",
+"Fils",
+"Tiafoe",
+"Jodar"
 ],
-"x": "Qualificati confermati finora: Alcaraz, Zverev, Shelton. Sinner si è ritirato per infortunio. Gli orari arrivano con il programma del giorno prima. In chiaro su Rai un incontro al giorno: da confermare."
+"x": "Dal 15 al 22 novembre. Qualificati: Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe, Jodar. Sinner assente per infortunio. Sorteggio dei gironi giovedì 12 novembre alle 12. Tutto il torneo su Sky e NOW; in chiaro su Mediaset le 8 partite migliori, finale compresa.",
+"chg": "2026-11-10"
 },
 {
 "d": "2026-11-21",
@@ -172,14 +178,20 @@
 "now_sport"
 ],
 "f": [
-"Rai"
+"Mediaset"
 ],
 "who": [
 "Alcaraz",
 "Zverev",
-"Shelton"
+"Shelton",
+"Medvedev",
+"Cobolli",
+"Fils",
+"Tiafoe",
+"Jodar"
 ],
-"x": "Orario da confermare. In chiaro su Rai un incontro al giorno: da confermare."
+"x": "Orario da confermare. In chiaro su Mediaset (finale compresa) e su Sky e NOW.",
+"chg": "2026-11-10"
 },
 {
 "d": "2026-11-23",
