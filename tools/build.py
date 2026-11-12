@@ -74,6 +74,7 @@ FOOT = """
 <span>Orari e canali possono cambiare: controlla sempre sulla piattaforma. Solo fonti ufficiali, niente pirateria.</span>
 <span>Dovelavedo non è affiliato a DAZN, Sky, NOW, Prime Video, Rai o altre emittenti: i marchi sono dei rispettivi proprietari.</span>
 <span><a href="../">Palinsesto di oggi</a> · <a href="./">Tutte le partite</a> · <a href="../chi-siamo.html">Chi siamo, privacy e contatti</a></span>
+<span>Dovelavedo è gratis. <a href="https://paypal.me/madebyze" target="_blank" rel="noopener">Sostienilo con una donazione</a> · <a href="https://t.me/dovelavedo" target="_blank" rel="noopener">Canale Telegram</a></span>
 </footer>
 </main>
 <script data-goatcounter="https://dovelavedo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
