@@ -90,6 +90,8 @@ def verb(e):
 def page(e, upd, others):
     name, comp = e["n"], e["c"]
     when = dlabel(e["d"], True) + (f", ore {e['t']}" if e.get("t") else ", orario da definire")
+    if e.get("w"):
+        when = f"{e['w'][0].upper()}{e['w'][1:]} {e['d'][:4]}: giorno e orario da definire" if not e["w"][0].isdigit() else f"Weekend del {e['w']} {e['d'][:4]}: giorno e orario da definire"
     line = plats_line(e)
     title = f"Dove vedere {name} in TV e streaming · {comp}, {dlabel(e['d'])}"
     desc = f"{name} ({comp}): {when}. Dove {verb(e)}: {line}. Scopri se è già nei tuoi abbonamenti."
@@ -170,7 +172,10 @@ def index(evs, upd):
     h += f'<p class="note">Aggiornato il {dlabel(upd, True)}. Tocca un evento per vedere canali e abbonamenti.</p>\n'
     h += '<div class="card"><h2>Per competizione</h2><ul class="list">' + "".join(
         f'<li><a href="{fn}.html">{esc(k)}</a></li>' for k, (fn, _) in COMPS.items()) + "</ul></div>\n"
-    days = sorted({e["d"] for e in evs})
+    import datetime as _dt
+    lim = (_dt.date.fromisoformat(min(e["d"] for e in evs)) + _dt.timedelta(days=31)).isoformat() if evs else ""
+    h += '<p class="note">Qui sotto i prossimi 30 giorni. Le partite più avanti le trovi nelle pagine delle competizioni e delle squadre.</p>\n'
+    days = sorted({e["d"] for e in evs if e["d"] <= lim})
     for d in days:
         lab = dlabel(d, True)
         h += f'<div class="card"><h2>{esc(lab[0].upper() + lab[1:])}</h2><ul class="list">'
@@ -186,6 +191,7 @@ COMPS = {
     "Serie A": ("serie-a", "Tutte le dieci partite di ogni giornata sono su DAZN. Tre partite per giornata si vedono anche su Sky (pacchetto Sky Calcio) e su NOW (Pass Sport). Nessuna partita è in chiaro."),
     "Serie B": ("serie-b", "Tutta la Serie B è su DAZN. Le partite si vedono anche su LaB Channel, un canale a pagamento dentro Prime Video."),
     "Champions League": ("champions-league", "La Champions League è su Sky e NOW. La partita migliore del mercoledì è in esclusiva su Prime Video e non si vede su Sky."),
+    "Coppa Italia": ("coppa-italia", "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratuito su Mediaset Infinity."),
     "Europa League": ("europa-league", "L'Europa League è su Sky e NOW. Alcune partite vanno anche in chiaro su TV8."),
     "Conference League": ("conference-league", "La Conference League è su Sky e NOW. Alcune partite vanno anche in chiaro su TV8."),
     "Nations League": ("nations-league", "Le partite dell'Italia sono in chiaro su Rai 1 e in streaming gratuito su RaiPlay."),
@@ -228,7 +234,7 @@ def evlist(evs, withday=True):
         return '<p class="note">Nessun evento in programma nei prossimi giorni. Il calendario si aggiorna ogni mattina.</p>'
     h = '<ul class="list">'
     for e in evs:
-        when = (dlabel(e["d"]) + ", " if withday else "") + (e.get("t") or "orario da definire")
+        when = (e["w"] + ", data da definire") if e.get("w") else (dlabel(e["d"]) + ", " if withday else "") + (e.get("t") or "orario da definire")
         h += (f'<li><a href="{slug(e)}.html">{esc(e["n"])}</a>'
               f'<small>{esc(e["c"])} · {esc(when)} · {esc(plats_line(e))}</small></li>')
     return h + "</ul>"

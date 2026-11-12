@@ -314,8 +314,10 @@ function platsLine(e){const ps=[...new Set(offers(e).map(of=>of.p))];return ps.j
 /* ---------- Palinsesto ---------- */
 function renderDays(){
   if(!st.day||!DATES.includes(st.day))st.day=DATES[0];
-  $("days").innerHTML=DATES.map(d=>{const x=dt(d);const f=EV.some(e=>e.d===d&&isFav(e));
-    return `<button class="day" type="button" data-d="${d}" aria-pressed="${d===st.day}"><small>${d===TODAY()?"Oggi":WD[x.getUTCDay()]}</small><b>${x.getUTCDate()}</b><span class="dot${f?" fav":""}"></span></button>`}).join("");
+  const MO3=["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
+  $("days").innerHTML=DATES.map((d,i)=>{const x=dt(d);const f=EV.some(e=>e.d===d&&isFav(e));
+    const mo=(i===0||x.getUTCDate()===1||dt(DATES[i-1]).getUTCMonth()!==x.getUTCMonth())?" "+MO3[x.getUTCMonth()]:"";
+    return `<button class="day" type="button" data-d="${d}" aria-pressed="${d===st.day}"><small>${d===TODAY()?"Oggi":WD[x.getUTCDay()]}${mo}</small><b>${x.getUTCDate()}</b><span class="dot${f?" fav":""}"></span></button>`}).join("");
   $("days").querySelectorAll(".day").forEach(b=>b.onclick=()=>{st.day=b.dataset.d;renderList();renderDays()});
 }
 function renderChips(){
@@ -330,7 +332,7 @@ function rowHTML(e,showDate){
   const tags=[isFav(e)?`<span class="star">★ ${esc(f.slice(0,2).join(", "))}${f.length>2?"…":""}</span>`:"",e.chg?'<span class="chg">Cambiato</span>':""].filter(Boolean).join(" · ");
   const pill=over?`<span class="pill done">Finita</span>`:`<span class="pill ${a.cls}">${a.txt}</span>`;
   return `<button class="row" type="button" data-k="${esc(key(e))}">
-    <div class="time">${live?'<span class="livetag">LIVE</span><br>':""}${esc(e.t)||"—"}${e.t?"":"<small>da definire</small>"}${sub?`<small>${sub}</small>`:""}</div>
+    <div class="time">${live?'<span class="livetag">LIVE</span><br>':""}${esc(e.t)||"—"}${e.t?"":`<small>${e.w?"data da definire":"da definire"}</small>`}${sub?`<small>${sub}</small>`:""}</div>
     <div class="ev"><div class="comp">${esc(e.c)}${tags?" · "+tags:""}</div><div class="name">${esc(e.n)}</div><div class="plats">${esc(platsLine(e))}</div></div>
     ${pill}</button>`;
 }
@@ -433,7 +435,7 @@ function bill(){
   }else if(!tips.length)tips.push(`<p>Con i tuoi abbonamenti vedi già tutto quello che si può vedere, e non stai pagando doppioni.</p>`);
   if(maxC<T.length)tips.push(`<p>${T.length-maxC} ${T.length-maxC===1?"evento non ha":"eventi non hanno"} ancora un'emittente confermata.</p>`);
   box.hidden=false;
-  box.innerHTML=`<h3>Il conto degli abbonamenti</h3><p class="note">${favMode?"Calcolato sugli eventi di chi segui":"Calcolato sugli sport che segui"} in programma nelle prossime settimane.</p>
+  box.innerHTML=`<h3>Il conto degli abbonamenti</h3><p class="note">${favMode?"Calcolato su tutti gli eventi in calendario di chi segui":"Calcolato su tutti gli eventi in calendario degli sport che segui"}, da oggi a fine stagione.</p>
     <div class="srows">${rows.join("")}</div><div class="sugg">${tips.join("")}</div>
     <p class="note">Prezzi di listino mensili a ottobre 2026: promozioni e vincoli cambiano spesso. Sky Calcio e Sky Sport richiedono anche Sky TV. LBA TV costa 99 € a stagione. Il prezzo di VBTV non è nel conto: lo trovi sul suo sito.</p>`;
 }
@@ -483,7 +485,7 @@ function gcal(e){
   else{const x=dt(e.d);x.setUTCDate(x.getUTCDate()+1);dates=`${e.d.replace(/-/g,"")}/${x.toISOString().slice(0,10).replace(/-/g,"")}`}
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.n+" · "+e.c)}&dates=${dates}&details=${encodeURIComponent("Dove vederla: "+platsLine(e)+"\nhttps://dovelavedo.github.io")}${e.t?"&ctz=Europe/Rome":""}`;
 }
-function shareText(e){return `${e.n} (${e.c}) · ${dlabel(e.d)}${e.t?" alle "+e.t:""}. Dove vederla: ${platsLine(e)}. ${pageUrl(e)}`}
+function shareText(e){return `${e.n} (${e.c}) · ${e.w?e.w+" (data da definire)":dlabel(e.d)+(e.t?" alle "+e.t:"")}. Dove vederla: ${platsLine(e)}. ${pageUrl(e)}`}
 function openSheet(e){
   if(!e)return;
   const a=access(e),f=isFav(e)?favOf(e):[],live=isLive(e),over=!live&&isOver(e);
@@ -491,7 +493,7 @@ function openSheet(e){
     return `<div class="prow"><div><b>${of.p}</b><small>${inc?"Nei tuoi abbonamenti":"Serve "+pk}</small></div><a class="btn small" href="${(e.l&&e.l[of.p])||PLAT[of.p]}" target="_blank" rel="noopener">${e.l&&e.l[of.p]?"Vai alla partita":"Apri "+of.p} ↗</a></div>`}).join("");
   const fr=(e.f||[]).map(p=>`<div class="prow"><div><b>${esc(p)}</b><small>Gratis</small></div>${PLAT[p]?`<a class="btn small" href="${(e.l&&e.l[p])||PLAT[p]}" target="_blank" rel="noopener">Guarda la diretta ↗</a>`:""}</div>`).join("");
   $("sheet").innerHTML=`<div class="sheet-bg" id="bg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
-    <div class="meta">${live?'<span class="livetag">IN DIRETTA</span> ':""}${esc(e.c)} · ${dlabel(e.d)}${e.t?" · "+esc(e.t):" · orario da definire"}</div>
+    <div class="meta">${live?'<span class="livetag">IN DIRETTA</span> ':""}${esc(e.c)} · ${e.w?esc(e.w)+" · data e orario da definire":dlabel(e.d)+(e.t?" · "+esc(e.t):" · orario da definire")}</div>
     <h3 id="sh-t">${esc(e.n)}</h3>
     ${e.chg?`<div class="alert"><b>Cambio di programma:</b> ${esc(e.chg)}.</div>`:""}
     ${over?'<p class="note">Evento concluso.</p>':`<span class="pill ${a.cls}" style="align-self:flex-start">${a.why}</span>`}

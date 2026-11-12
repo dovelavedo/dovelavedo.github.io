@@ -47,3 +47,9 @@ Serie A (con le partite anche su Sky/NOW), Serie B, Champions, Europa e Conferen
 Se cambiano pacchetti, prezzi o codici, vanno aggiornati sia in `index.html` (PK, OFFERS, PLAT, MONTH) sia in `tools/common.py`.
 
 `tools/build.py` crea anche pagine fisse che restano sempre online: una per competizione (es. `dove-vedere/serie-a.html`) e una per ogni squadra apparsa almeno una volta nel palinsesto (es. `dove-vedere/inter-calcio.html`). L'elenco delle squadre si accumula in `data/teams.json`: non va modificato a mano.
+
+`w` (facoltativo) indica che la data non è ancora decisa: l'evento è messo alla domenica del weekend (o al giorno del turno) e `w` contiene il periodo da mostrare, es. "16-17 gennaio". Quando la Lega pubblica giorni e orari, si aggiorna `d`, si mette `t`, si aggiungono Sky/NOW dove servono e si toglie `w`.
+
+## Calendari caricati
+
+Serie A e Serie B fino all'ultima giornata, Champions/Europa/Conference fino alla fine della fase campionato, Coppa Italia (ottavi e finale), EuroLeague di Milano e Virtus fino alla fine della stagione regolare, SuperLega fino all'ultima giornata, Formula 1 e MotoGP 2027. Serie A basket solo fino a inizio dicembre: il calendario completo non era leggibile dalle fonti online.

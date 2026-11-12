@@ -896,17 +896,6 @@
 },
 {
 "d": "2026-11-26",
-"t": "20:30",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Perugia–Civitanova",
-"o": [
-"vbtv"
-],
-"x": "Alcune partite anche su Rai Sport o DAZN: da verificare. Orario da fonte non ufficiale."
-},
-{
-"d": "2026-11-26",
 "t": "21:00",
 "s": "Calcio",
 "c": "Conference League",
@@ -1309,6 +1298,96 @@
 ]
 },
 {
+"d": "2026-12-01",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Inter–Genoa",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2026-12-02",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Como–Cremonese",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Perugia",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Monza",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Padova",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-02",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "8ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
 "d": "2026-12-03",
 "t": "20:00",
 "s": "Basket",
@@ -1320,6 +1399,29 @@
 ]
 },
 {
+"d": "2026-12-03",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Juventus–Sassuolo",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2026-12-04",
+"t": "20:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Sampdoria",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
 "d": "2026-12-04",
 "t": "20:30",
 "s": "Basket",
@@ -1329,6 +1431,91 @@
 "sky_sport",
 "now_sport"
 ]
+},
+{
+"d": "2026-12-04",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Roma",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-05",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Carrarese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-05",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Ascoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-05",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Arezzo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-05",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Como",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-05",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Vicenza",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-05",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Inter",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-05",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-12-05",
@@ -1343,6 +1530,18 @@
 ]
 },
 {
+"d": "2026-12-05",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Lecce",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
 "d": "2026-12-06",
 "t": "12:00",
 "s": "Basket",
@@ -1350,6 +1549,48 @@
 "n": "Napoli–Verona",
 "o": [
 "lbatv"
+]
+},
+{
+"d": "2026-12-06",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Torino",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-06",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Sudtirol",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-06",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Catanzaro",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-06",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Atalanta",
+"o": [
+"seriea_dazn"
 ]
 },
 {
@@ -1376,6 +1617,17 @@
 },
 {
 "d": "2026-12-06",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Palermo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-06",
 "t": "17:30",
 "s": "Basket",
 "c": "Serie A basket",
@@ -1396,6 +1648,18 @@
 },
 {
 "d": "2026-12-06",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Udinese",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-06",
 "t": "19:00",
 "s": "Basket",
 "c": "Serie A basket",
@@ -1403,6 +1667,49 @@
 "o": [
 "lbatv"
 ]
+},
+{
+"d": "2026-12-06",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Empoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-06",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Parma",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Trentino",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
 },
 {
 "d": "2026-12-06",
@@ -1424,6 +1731,60 @@
 "x": "Su TV8 in differita."
 },
 {
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Modena",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Verona",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-06",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Milano",
+"o": [
+"vbtv"
+],
+"x": "9ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-07",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Sassuolo",
+"o": [
+"seriea_dazn"
+]
+},
+{
 "d": "2026-12-07",
 "t": "20:00",
 "s": "Basket",
@@ -1432,6 +1793,73 @@
 "o": [
 "lbatv"
 ]
+},
+{
+"d": "2026-12-07",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Cagliari",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-08",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Padova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-08",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Pisa",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-08",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Mantova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-08",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Juve Stabia",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-08",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Modena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-12-08",
@@ -1465,6 +1893,61 @@
 "sky_sport",
 "now_sport"
 ]
+},
+{
+"d": "2026-12-09",
+"t": "19:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Avellino",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-09",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Cesena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-09",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Virtus Entella",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-09",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Sudtirol",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-09",
+"t": "20:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Cremonese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
 },
 {
 "d": "2026-12-09",
@@ -1502,6 +1985,17 @@
 },
 {
 "d": "2026-12-10",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Bayern Monaco",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-10",
 "t": "21:00",
 "s": "Calcio",
 "c": "Europa League",
@@ -1511,6 +2005,7860 @@
 "now_sport"
 ],
 "x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2026-12-11",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Maccabi Tel Aviv",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-11",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Frosinone",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-12",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Venezia",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-12",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Padova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-12",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-12",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Ascoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-12",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Palermo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-12",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Sassuolo",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-12",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Vicenza",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-12",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Bologna",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-13",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Roma",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-13",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Carrarese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-13",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Torino",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-13",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Hellas Verona",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-13",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Arezzo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-13",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Empoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-13",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Fiorentina",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-13",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Catanzaro",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-13",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Milan",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Monza",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Padova",
+"o": [
+"vbtv"
+],
+"x": "10ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-14",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Genoa",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-14",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Monza",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-15",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–ASVEL",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-15",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Bologna–Palermo",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2026-12-16",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Besiktas–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-16",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Napoli–Fiorentina",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2026-12-17",
+"t": "21:00",
+"s": "Calcio",
+"c": "Conference League",
+"n": "Atalanta–Mjällby",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Ultima giornata della fase campionato."
+},
+{
+"d": "2026-12-18",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Lazio",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-18",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Anadolu Efes–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-18",
+"t": "20:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Cremonese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-18",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Barcellona–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-18",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Inter",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Pisa",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Avellino",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Mantova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Cesena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Parma",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-19",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Sudtirol",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Sampdoria",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Como",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-19",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Modena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-19",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Juventus",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-20",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Bologna",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-20",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Arezzo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-20",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Cagliari",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-20",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Monza",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-20",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Virtus Entella",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-20",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Udinese",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2026-12-20",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Napoli",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Milano",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Padova",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-20",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "11ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-22",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Real Madrid",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-23",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Paris Basketball",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2026-12-26",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Juve Stabia",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Perugia",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Verona",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Modena",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Monza",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Trentino",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-26",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Padova",
+"o": [
+"vbtv"
+],
+"x": "12ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2026-12-27",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Palermo",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Vicenza",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Empoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Ascoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Padova",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Carrarese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Pisa",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-27",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Hellas Verona",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2026-12-30",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-02",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Genoa",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-02",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Lazio",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-02",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Venezia",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-02",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Frosinone",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-02",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Milan",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-03",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Sassuolo",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-03",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Lecce",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-03",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Atalanta",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-03",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Napoli",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-03",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Juventus",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Milano",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-03",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Verona",
+"o": [
+"vbtv"
+],
+"x": "13ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-05",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Monza",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-05",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Roma",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-05",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Fiorentina",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-06",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Torino",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-06",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Bologna",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-06",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Parma",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-06",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Como",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-06",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Inter",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-07",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Udinese",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-07",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Hapoel Tel Aviv",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-07",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Cagliari",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-08",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Baskonia–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Modena",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Sampdoria",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Carrarese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Frosinone",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Cremonese",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Benevento",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Virtus Entella",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Empoli",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Milan",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-09",
+"t": "19:30",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Hellas Verona",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-09",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Genoa",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-10",
+"t": "12:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Lazio",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-10",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Catanzaro",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-10",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Lecce",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-10",
+"t": "15:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Venezia",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-10",
+"t": "17:15",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Avellino",
+"o": [
+"dazn"
+],
+"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-10",
+"t": "18:00",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Atalanta",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-10",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Juventus",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Monza",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Milano",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Trentino",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Perugia",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-10",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Modena",
+"o": [
+"vbtv"
+],
+"x": "14ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-11",
+"t": "18:30",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Sassuolo",
+"o": [
+"seriea_dazn"
+]
+},
+{
+"d": "2027-01-11",
+"t": "20:45",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Napoli",
+"o": [
+"seriea_dazn",
+"seriea_sky",
+"seriea_now"
+]
+},
+{
+"d": "2027-01-12",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Barcellona–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-12",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Anadolu Efes",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-12",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Roma–Hellas Verona",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2027-01-13",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Milan–Monza",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Trentino",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Padova",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-13",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Verona",
+"o": [
+"vbtv"
+],
+"x": "15ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-14",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–ASVEL",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-15",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Barcellona",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 16 gennaio",
+"x": "21ª giornata, weekend del 16 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Monza",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Perugia",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Milano",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Modena",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "16-17 gennaio",
+"x": "20ª giornata, weekend del 16-17 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-17",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "16ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-19",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "AEK Atene–Roma",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare."
+},
+{
+"d": "2027-01-19",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Inter–Liverpool",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare."
+},
+{
+"d": "2027-01-20",
+"t": "18:45",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Sabah–Napoli",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare."
+},
+{
+"d": "2027-01-20",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Como–PSG",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare."
+},
+{
+"d": "2027-01-21",
+"t": "18:45",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Ferencvaros–Juventus",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2027-01-21",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Bayern Monaco–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-21",
+"t": "",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Levski Sofia–Milan",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Orario da definire. TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2027-01-22",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Zalgiris–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 23 gennaio",
+"x": "22ª giornata, weekend del 23 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Modena",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Verona",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Trentino",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "17ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "23-24 gennaio",
+"x": "21ª giornata, weekend del 23-24 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-26",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia · ottavi",
+"n": "Atalanta–Udinese",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2027-01-27",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Barcellona–Como",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare. Ultima giornata della fase campionato: le partite si giocano tutte alla stessa ora."
+},
+{
+"d": "2027-01-27",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Napoli–Viking",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare. Ultima giornata della fase campionato: le partite si giocano tutte alla stessa ora."
+},
+{
+"d": "2027-01-27",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Roma–Lille",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare. Ultima giornata della fase campionato: le partite si giocano tutte alla stessa ora."
+},
+{
+"d": "2027-01-27",
+"t": "21:00",
+"s": "Calcio",
+"c": "Champions League",
+"n": "Slovan Bratislava–Inter",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Una partita per giornata è in esclusiva su Prime Video: se tocca a questa, non sarà su Sky né su NOW. Da confermare. Ultima giornata della fase campionato: le partite si giocano tutte alla stessa ora."
+},
+{
+"d": "2027-01-28",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Paris Basketball",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-28",
+"t": "21:00",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Juventus–Real Sociedad",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2027-01-28",
+"t": "",
+"s": "Calcio",
+"c": "Europa League",
+"n": "Milan–Ararat-Armenia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"x": "Orario da definire. TV8 trasmette in chiaro una partita di Europa League a giornata: da verificare quale."
+},
+{
+"d": "2027-01-29",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Partizan",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 30 gennaio",
+"x": "23ª giornata, weekend del 30 gennaio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Monza",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Padova",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Milano",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "30-31 gennaio",
+"x": "22ª giornata, weekend del 30-31 gennaio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-01-31",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Perugia",
+"o": [
+"vbtv"
+],
+"x": "18ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-02",
+"t": "20:05",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Maccabi Tel Aviv–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-03",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Valencia–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-04",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Dubai Basketball–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-05",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Panathinaikos",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 febbraio",
+"x": "24ª giornata, weekend del 6 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 febbraio",
+"x": "23ª giornata, weekend del 6-7 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-11",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Bayern Monaco",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-12",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Fenerbahce–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 febbraio",
+"x": "25ª giornata, weekend del 13 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Trentino",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Modena",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Verona",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "19ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 febbraio",
+"x": "24ª giornata, weekend del 13-14 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 febbraio",
+"x": "26ª giornata, weekend del 20 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Milano",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Padova",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Perugia",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 febbraio",
+"x": "25ª giornata, weekend del 20-21 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-21",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Monza",
+"o": [
+"vbtv"
+],
+"x": "20ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cisterna–Verona",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Civitanova–Perugia",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Monza–Trentino",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Padova–Milano",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Piacenza–Cuneo",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-24",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Pordenone–Modena",
+"o": [
+"vbtv"
+],
+"x": "21ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-27",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 27 febbraio",
+"x": "27ª giornata, weekend del 27 febbraio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Cuneo–Cisterna",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Milano–Pordenone",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Modena–Padova",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Perugia–Monza",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "27-28 febbraio",
+"x": "26ª giornata, weekend del 27-28 febbraio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Trentino–Civitanova",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-02-28",
+"t": "",
+"s": "Pallavolo",
+"c": "SuperLega",
+"n": "Verona–Piacenza",
+"o": [
+"vbtv"
+],
+"x": "22ª giornata. Tutta la SuperLega è su VBTV. Orario e partite in chiaro (Rai Sport) o su DAZN vengono comunicati qualche settimana prima."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Arezzo",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Palermo",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Empoli",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Pisa",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Mantova",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Vicenza",
+"o": [
+"dazn"
+],
+"w": "turno del 2 marzo",
+"x": "28ª giornata, turno del 2 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-04",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Hapoel Tel Aviv",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-05",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Anadolu Efes",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-06",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 6 marzo",
+"x": "29ª giornata, weekend del 6 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Thailandia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-07",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "6-7 marzo",
+"x": "27ª giornata, weekend del 6-7 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-09",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Fenerbahce",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-10",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Olympiacos",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-11",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Real Madrid–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-12",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Zalgiris–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-13",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 13 marzo",
+"x": "30ª giornata, weekend del 13 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Bahrain",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP del Qatar",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "13-14 marzo",
+"x": "28ª giornata, weekend del 13-14 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-19",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "ASVEL–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-19",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Dubai Basketball–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-20",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 20 marzo",
+"x": "31ª giornata, weekend del 20 marzo: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP dell'Arabia Saudita",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-21",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "20-21 marzo",
+"x": "29ª giornata, weekend del 20-21 marzo: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-03-23",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Paris Basketball–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-23",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Partizan–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-26",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Maccabi Tel Aviv",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-26",
+"t": "21:15",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olympiacos–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-03-31",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Stella Rossa",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-01",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Besiktas",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-03",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 3 aprile",
+"x": "32ª giornata, weekend del 3 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP d'Australia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP del Brasile",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-04",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "3-4 aprile",
+"x": "30ª giornata, weekend del 3-4 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-06",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Virtus Bologna–Valencia",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-06",
+"t": "20:45",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Real Madrid–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-08",
+"t": "20:30",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Olimpia Milano–Baskonia",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-08",
+"t": "21:15",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Panathinaikos–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-10",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 10 aprile",
+"x": "33ª giornata, weekend del 10 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Argentina",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Giappone",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-11",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "10-11 aprile",
+"x": "31ª giornata, weekend del 10-11 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-15",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Stella Rossa–Olimpia Milano",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-16",
+"t": "20:00",
+"s": "Basket",
+"c": "EuroLeague",
+"n": "Besiktas–Virtus Bologna",
+"o": [
+"sky_sport",
+"now_sport"
+]
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-17",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 17 aprile",
+"x": "34ª giornata, weekend del 17 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Cina",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-18",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "17-18 aprile",
+"x": "32ª giornata, weekend del 17-18 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-24",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 24 aprile",
+"x": "35ª giornata, weekend del 24 aprile: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP degli Stati Uniti",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-04-25",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "24-25 aprile",
+"x": "33ª giornata, weekend del 24-25 aprile: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Avellino",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Ascoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Cesena",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Benevento",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Vicenza",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Cremonese",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Pisa",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-01",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "weekend del 1 maggio",
+"x": "36ª giornata, weekend del 1 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Miami",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-02",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "1-2 maggio",
+"x": "34ª giornata, weekend del 1-2 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Ascoli–Hellas Verona",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Avellino–Carrarese",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Benevento–Palermo",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Catanzaro–Modena",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cesena–Arezzo",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Cremonese–Empoli",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Pisa–Mantova",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sudtirol–Juve Stabia",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Vicenza–Sampdoria",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-08",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Virtus Entella–Padova",
+"o": [
+"dazn"
+],
+"w": "weekend del 8 maggio",
+"x": "37ª giornata, weekend del 8 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Spagna",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-09",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "8-9 maggio",
+"x": "35ª giornata, weekend del 8-9 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Arezzo–Virtus Entella",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Carrarese–Cremonese",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Empoli–Catanzaro",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Hellas Verona–Sudtirol",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Juve Stabia–Ascoli",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Mantova–Vicenza",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Modena–Benevento",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Padova–Avellino",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Palermo–Cesena",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-14",
+"t": "",
+"s": "Calcio",
+"c": "Serie B",
+"n": "Sampdoria–Pisa",
+"o": [
+"dazn"
+],
+"w": "turno del 14 maggio",
+"x": "38ª giornata, turno del 14 maggio: giorno e orario vengono decisi più avanti. Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Francia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-16",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "15-16 maggio",
+"x": "36ª giornata, weekend del 15-16 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-19",
+"t": "21:00",
+"s": "Calcio",
+"c": "Coppa Italia",
+"n": "Finale",
+"o": [],
+"f": [
+"Mediaset"
+],
+"x": "Allo Stadio Olimpico di Roma. Squadre e orario da definire. La Coppa Italia è in chiaro su Mediaset (Canale 5 o Italia 1) e in streaming gratis su Mediaset Infinity."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Atalanta–Lecce",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Fiorentina–Monza",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Frosinone–Cagliari",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Canada",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Genoa–Bologna",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Inter–Lazio",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Parma–Juventus",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Roma–Como",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Torino–Napoli",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Udinese–Sassuolo",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-23",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Venezia–Milan",
+"o": [
+"seriea_dazn"
+],
+"w": "22-23 maggio",
+"x": "37ª giornata, weekend del 22-23 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Bologna–Parma",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Cagliari–Roma",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Como–Genoa",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Italia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Juventus–Frosinone",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lazio–Fiorentina",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Lecce–Venezia",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Milan–Udinese",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Monza–Torino",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Napoli–Atalanta",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-05-30",
+"t": "",
+"s": "Calcio",
+"c": "Serie A",
+"n": "Sassuolo–Inter",
+"o": [
+"seriea_dazn"
+],
+"w": "29-30 maggio",
+"x": "38ª giornata, weekend del 29-30 maggio: giorno e orario li decide la Lega circa un mese prima. Tutte le partite sono su DAZN; tre per giornata anche su Sky e NOW, scelte più avanti."
+},
+{
+"d": "2027-06-06",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Monaco",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-06-13",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Catalogna",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-06-20",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Portogallo",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-06-27",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Olanda",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-07-04",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Gran Bretagna",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-07-11",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP d'Austria",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-07-11",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Germania",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-07-18",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP della Repubblica Ceca",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-07-25",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Belgio",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-08-01",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP d'Ungheria",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-08-15",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Gran Bretagna",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-08-29",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Austria",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-09-05",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP d'Italia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-09-12",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di San Marino",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-09-12",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Spagna",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-09-19",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Aragona",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-09-26",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP dell'Azerbaigian",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-10-03",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP del Portogallo",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-10-03",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Turchia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-10-10",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Singapore",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-10-17",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP del Giappone",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-10-24",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP della Malesia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-10-24",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP degli Stati Uniti",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-10-31",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Indonesia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-10-31",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Messico",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-11-07",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Brasile",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-11-14",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP d'Australia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-11-20",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Las Vegas",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-11-28",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP di Valencia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
+},
+{
+"d": "2027-12-05",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP del Qatar",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-12-12",
+"t": "",
+"s": "Motori",
+"c": "Formula 1",
+"n": "GP di Abu Dhabi",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ferrari",
+"Mercedes",
+"Leclerc",
+"Hamilton",
+"Antonelli"
+],
+"x": "Weekend con gara Sprint il sabato. Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
 }
 ]
 }

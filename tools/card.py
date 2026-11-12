@@ -46,7 +46,7 @@ def main():
     day = sys.argv[1] if len(sys.argv) > 1 else today_rome()
     out = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, "card.png")
     _, evs = load()
-    evs = [e for e in evs if e["d"] == day]
+    evs = [e for e in evs if e["d"] == day and not e.get("w")]  # senza le partite con data ancora da definire
     if not evs:
         print("NESSUN_EVENTO")
         return

@@ -13,6 +13,13 @@
 "n": "Anadolu Efes",
 "s": "Basket"
 },
+"ararat-armenia-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Ararat-Armenia",
+"s": "Calcio"
+},
 "arezzo-calcio": {
 "c": [
 "Serie B"
@@ -37,7 +44,8 @@
 "atalanta-calcio": {
 "c": [
 "Serie A",
-"Conference League"
+"Conference League",
+"Coppa Italia"
 ],
 "n": "Atalanta",
 "s": "Calcio"
@@ -48,6 +56,34 @@
 ],
 "n": "Avellino",
 "s": "Calcio"
+},
+"barcellona-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Barcellona",
+"s": "Basket"
+},
+"barcellona-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Barcellona",
+"s": "Calcio"
+},
+"baskonia-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Baskonia",
+"s": "Basket"
+},
+"bayern-monaco-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Bayern Monaco",
+"s": "Basket"
 },
 "bc-roma-basket": {
 "c": [
@@ -70,9 +106,17 @@
 "n": "Benevento",
 "s": "Calcio"
 },
+"besiktas-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Besiktas",
+"s": "Basket"
+},
 "bologna-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Bologna",
 "s": "Calcio"
@@ -150,14 +194,16 @@
 "como-calcio": {
 "c": [
 "Serie A",
-"Champions League"
+"Champions League",
+"Coppa Italia"
 ],
 "n": "Como",
 "s": "Calcio"
 },
 "cremonese-calcio": {
 "c": [
-"Serie B"
+"Serie B",
+"Coppa Italia"
 ],
 "n": "Cremonese",
 "s": "Calcio"
@@ -168,6 +214,13 @@
 ],
 "n": "Cuneo",
 "s": "Pallavolo"
+},
+"dubai-basketball-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Dubai Basketball",
+"s": "Basket"
 },
 "empoli-calcio": {
 "c": [
@@ -183,9 +236,17 @@
 "n": "Fenerbahce",
 "s": "Basket"
 },
+"ferencvaros-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Ferencvaros",
+"s": "Calcio"
+},
 "fiorentina-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Fiorentina",
 "s": "Calcio"
@@ -206,7 +267,8 @@
 },
 "genoa-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Genoa",
 "s": "Calcio"
@@ -227,7 +289,8 @@
 },
 "hellas-verona-calcio": {
 "c": [
-"Serie B"
+"Serie B",
+"Coppa Italia"
 ],
 "n": "Hellas Verona",
 "s": "Calcio"
@@ -235,7 +298,8 @@
 "inter-calcio": {
 "c": [
 "Serie A",
-"Champions League"
+"Champions League",
+"Coppa Italia"
 ],
 "n": "Inter",
 "s": "Calcio"
@@ -257,7 +321,8 @@
 "juventus-calcio": {
 "c": [
 "Serie A",
-"Europa League"
+"Europa League",
+"Coppa Italia"
 ],
 "n": "Juventus",
 "s": "Calcio"
@@ -275,6 +340,34 @@
 ],
 "n": "Lecce",
 "s": "Calcio"
+},
+"levski-sofia-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Levski Sofia",
+"s": "Calcio"
+},
+"lille-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Lille",
+"s": "Calcio"
+},
+"liverpool-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Liverpool",
+"s": "Calcio"
+},
+"maccabi-tel-aviv-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Maccabi Tel Aviv",
+"s": "Basket"
 },
 "manchester-city-calcio": {
 "c": [
@@ -300,7 +393,8 @@
 "milan-calcio": {
 "c": [
 "Serie A",
-"Europa League"
+"Europa League",
+"Coppa Italia"
 ],
 "n": "Milan",
 "s": "Calcio"
@@ -311,6 +405,13 @@
 ],
 "n": "Milano",
 "s": "Pallavolo"
+},
+"mjallby-calcio": {
+"c": [
+"Conference League"
+],
+"n": "Mjällby",
+"s": "Calcio"
 },
 "modena-calcio": {
 "c": [
@@ -328,7 +429,8 @@
 },
 "monza-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Monza",
 "s": "Calcio"
@@ -350,7 +452,8 @@
 "napoli-calcio": {
 "c": [
 "Serie A",
-"Champions League"
+"Champions League",
+"Coppa Italia"
 ],
 "n": "Napoli",
 "s": "Calcio"
@@ -361,6 +464,13 @@
 "Serie A basket"
 ],
 "n": "Olimpia Milano",
+"s": "Basket"
+},
+"olympiacos-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Olympiacos",
 "s": "Basket"
 },
 "olympiacos-calcio": {
@@ -393,7 +503,8 @@
 },
 "palermo-calcio": {
 "c": [
-"Serie B"
+"Serie B",
+"Coppa Italia"
 ],
 "n": "Palermo",
 "s": "Calcio"
@@ -403,6 +514,13 @@
 "EuroLeague"
 ],
 "n": "Panathinaikos",
+"s": "Basket"
+},
+"paris-basketball-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Paris Basketball",
 "s": "Basket"
 },
 "parma-calcio": {
@@ -461,6 +579,20 @@
 "n": "Real Betis",
 "s": "Calcio"
 },
+"real-madrid-basket": {
+"c": [
+"EuroLeague"
+],
+"n": "Real Madrid",
+"s": "Basket"
+},
+"real-sociedad-calcio": {
+"c": [
+"Europa League"
+],
+"n": "Real Sociedad",
+"s": "Calcio"
+},
 "reggio-emilia-basket": {
 "c": [
 "Serie A basket"
@@ -478,9 +610,17 @@
 "roma-calcio": {
 "c": [
 "Serie A",
-"Champions League"
+"Champions League",
+"Coppa Italia"
 ],
 "n": "Roma",
+"s": "Calcio"
+},
+"sabah-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Sabah",
 "s": "Calcio"
 },
 "sampdoria-calcio": {
@@ -492,7 +632,8 @@
 },
 "sassuolo-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Sassuolo",
 "s": "Calcio"
@@ -503,6 +644,13 @@
 ],
 "n": "Scafati",
 "s": "Basket"
+},
+"slovan-bratislava-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Slovan Bratislava",
+"s": "Calcio"
 },
 "sporting-lisbona-calcio": {
 "c": [
@@ -590,7 +738,8 @@
 },
 "udinese-calcio": {
 "c": [
-"Serie A"
+"Serie A",
+"Coppa Italia"
 ],
 "n": "Udinese",
 "s": "Calcio"
@@ -642,6 +791,13 @@
 "Serie B"
 ],
 "n": "Vicenza",
+"s": "Calcio"
+},
+"viking-calcio": {
+"c": [
+"Champions League"
+],
+"n": "Viking",
 "s": "Calcio"
 },
 "virtus-bologna-basket": {
