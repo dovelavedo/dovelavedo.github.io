@@ -1,29 +1,6 @@
 {
-"updated": "2026-11-12",
+"updated": "2026-11-13",
 "events": [
-{
-"d": "2026-11-12",
-"t": "20:30",
-"s": "Basket",
-"c": "EuroLeague",
-"n": "Olimpia Milano–Zalgiris",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-12",
-"t": "20:45",
-"s": "Calcio",
-"c": "Nations League",
-"n": "Italia–Francia",
-"o": [],
-"f": [
-"Rai 1"
-],
-"x": "A San Siro. In chiaro su Rai 1 e in streaming gratis su RaiPlay."
-},
 {
 "d": "2026-11-13",
 "t": "20:30",
@@ -54,6 +31,35 @@
 "o": [
 "lbatv"
 ]
+},
+{
+"d": "2026-11-15",
+"t": "14:00",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Prima giornata",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Dal 15 al 22 novembre. Cobolli in singolare, Bolelli/Vavassori in doppio. Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima.",
+"chg": "In chiaro su Mediaset, non più sulla Rai",
+"chgd": "2026-11-10"
 },
 {
 "d": "2026-11-15",
@@ -132,11 +138,11 @@
 "x": "A Bruxelles. In chiaro su Rai 1 e in streaming gratis su RaiPlay."
 },
 {
-"d": "2026-11-15",
-"t": "",
+"d": "2026-11-16",
+"t": "14:00",
 "s": "Tennis",
 "c": "ATP Finals · Torino",
-"n": "Prima giornata",
+"n": "Seconda giornata",
 "o": [
 "sky_sport",
 "now_sport"
@@ -145,18 +151,18 @@
 "Mediaset"
 ],
 "who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
 "Alcaraz",
 "Zverev",
 "Shelton",
 "Medvedev",
-"Cobolli",
 "Fils",
 "Tiafoe",
 "Jodar"
 ],
-"x": "Dal 15 al 22 novembre. Qualificati: Alcaraz, Zverev, Shelton, Medvedev, Cobolli, Fils, Tiafoe, Jodar. Sinner assente per infortunio. Sorteggio dei gironi giovedì 12 novembre alle 12. Tutto il torneo su Sky e NOW; in chiaro su Mediaset le 8 partite migliori, finale compresa.",
-"chg": "In chiaro su Mediaset, non più sulla Rai",
-"chgd": "2026-11-10"
+"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
 },
 {
 "d": "2026-11-16",
@@ -171,6 +177,33 @@
 "RaiPlay"
 ],
 "x": "Recupero della 4ª giornata. Orario da confermare."
+},
+{
+"d": "2026-11-17",
+"t": "14:00",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Terza giornata",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
 },
 {
 "d": "2026-11-17",
@@ -195,6 +228,60 @@
 ]
 },
 {
+"d": "2026-11-18",
+"t": "14:00",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Quarta giornata",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
+},
+{
+"d": "2026-11-19",
+"t": "14:00",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Quinta giornata",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
+},
+{
 "d": "2026-11-19",
 "t": "20:30",
 "s": "Basket",
@@ -215,6 +302,33 @@
 "sky_sport",
 "now_sport"
 ]
+},
+{
+"d": "2026-11-20",
+"t": "14:00",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Sesta giornata",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
 },
 {
 "d": "2026-11-20",
@@ -387,6 +501,33 @@
 "seriea_sky",
 "seriea_now"
 ]
+},
+{
+"d": "2026-11-21",
+"t": "",
+"s": "Tennis",
+"c": "ATP Finals · Torino",
+"n": "Semifinali",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"f": [
+"Mediaset"
+],
+"who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
+"Alcaraz",
+"Zverev",
+"Shelton",
+"Medvedev",
+"Fils",
+"Tiafoe",
+"Jodar"
+],
+"x": "Orari da definire. Tutto su Sky e NOW; in chiaro su Mediaset."
 },
 {
 "d": "2026-11-22",
@@ -624,11 +765,13 @@
 "Mediaset"
 ],
 "who": [
+"Cobolli",
+"Bolelli",
+"Vavassori",
 "Alcaraz",
 "Zverev",
 "Shelton",
 "Medvedev",
-"Cobolli",
 "Fils",
 "Tiafoe",
 "Jodar"
@@ -9674,25 +9817,6 @@
 "d": "2027-10-24",
 "t": "",
 "s": "Motori",
-"c": "MotoGP",
-"n": "GP della Malesia",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"who": [
-"Ducati",
-"Aprilia",
-"Bagnaia",
-"Marquez",
-"Bezzecchi"
-],
-"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
-},
-{
-"d": "2027-10-24",
-"t": "",
-"s": "Motori",
 "c": "Formula 1",
 "n": "GP degli Stati Uniti",
 "o": [
@@ -9707,6 +9831,25 @@
 "Antonelli"
 ],
 "x": "Diritti TV 2027 da confermare: finora tutta la F1 su Sky e NOW, con TV8 in chiaro (differite e alcune dirette). Orari a ridosso del weekend."
+},
+{
+"d": "2027-10-24",
+"t": "",
+"s": "Motori",
+"c": "MotoGP",
+"n": "GP della Malesia",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"who": [
+"Ducati",
+"Aprilia",
+"Bagnaia",
+"Marquez",
+"Bezzecchi"
+],
+"x": "Diritti TV 2027 da confermare: finora tutta la MotoGP su Sky e NOW, con TV8 in chiaro. Sprint il sabato, orari a ridosso del weekend."
 },
 {
 "d": "2027-10-31",
