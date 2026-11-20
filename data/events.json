@@ -1,55 +1,6 @@
 {
-"updated": "2026-11-19",
+"updated": "2026-11-20",
 "events": [
-{
-"d": "2026-11-19",
-"t": "14:00",
-"s": "Tennis",
-"c": "ATP Finals · Torino",
-"n": "Quinta giornata",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"f": [
-"Mediaset"
-],
-"who": [
-"Cobolli",
-"Bolelli",
-"Vavassori",
-"Alcaraz",
-"Zverev",
-"Shelton",
-"Medvedev",
-"Fils",
-"Tiafoe",
-"Jodar"
-],
-"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
-},
-{
-"d": "2026-11-19",
-"t": "20:30",
-"s": "Basket",
-"c": "EuroLeague",
-"n": "Olimpia Milano–Fenerbahce",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-19",
-"t": "21:00",
-"s": "Basket",
-"c": "EuroLeague",
-"n": "Valencia–Virtus Bologna",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
 {
 "d": "2026-11-20",
 "t": "14:00",
