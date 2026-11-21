@@ -1,57 +1,6 @@
 {
-"updated": "2026-11-20",
+"updated": "2026-11-21",
 "events": [
-{
-"d": "2026-11-20",
-"t": "14:00",
-"s": "Tennis",
-"c": "ATP Finals · Torino",
-"n": "Sesta giornata",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"f": [
-"Mediaset"
-],
-"who": [
-"Cobolli",
-"Bolelli",
-"Vavassori",
-"Alcaraz",
-"Zverev",
-"Shelton",
-"Medvedev",
-"Fils",
-"Tiafoe",
-"Jodar"
-],
-"x": "Singolari dalle 14:00 e dalle 20:30, doppi dalle 11:30 e dalle 18:00. Tutto su Sky e NOW; in chiaro su Mediaset le partite migliori. Gli incontri del giorno escono la sera prima."
-},
-{
-"d": "2026-11-20",
-"t": "20:30",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Hellas Verona–Cesena",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-20",
-"t": "20:45",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Cuneo–Verona",
-"o": [
-"vbtv"
-],
-"f": [
-"Rai Sport"
-]
-},
 {
 "d": "2026-11-21",
 "t": "05:00",
@@ -202,10 +151,10 @@
 },
 {
 "d": "2026-11-21",
-"t": "",
+"t": "14:30",
 "s": "Tennis",
 "c": "ATP Finals · Torino",
-"n": "Semifinali",
+"n": "Semifinali: Alcaraz–Shelton e Zverev–Medvedev",
 "o": [
 "sky_sport",
 "now_sport"
@@ -214,18 +163,14 @@
 "Mediaset"
 ],
 "who": [
-"Cobolli",
-"Bolelli",
-"Vavassori",
 "Alcaraz",
-"Zverev",
 "Shelton",
-"Medvedev",
-"Fils",
-"Tiafoe",
-"Jodar"
+"Zverev",
+"Medvedev"
 ],
-"x": "Orari da definire. Tutto su Sky e NOW; in chiaro su Mediaset."
+"x": "Alcaraz–Shelton non prima delle 14:30, in chiaro su Italia 1. Zverev–Medvedev non prima delle 20:30. Doppi alle 12:00 e alle 18:00. Tutto anche su Sky e NOW. Cobolli e Bolelli/Vavassori sono stati eliminati nei gironi.",
+"chg": "Definite le semifinali e gli orari",
+"chgd": "2026-11-21"
 },
 {
 "d": "2026-11-22",
@@ -463,18 +408,12 @@
 "Mediaset"
 ],
 "who": [
-"Cobolli",
-"Bolelli",
-"Vavassori",
 "Alcaraz",
-"Zverev",
 "Shelton",
-"Medvedev",
-"Fils",
-"Tiafoe",
-"Jodar"
+"Zverev",
+"Medvedev"
 ],
-"x": "Orario da confermare. In chiaro su Mediaset (finale compresa) e su Sky e NOW."
+"x": "Orario da confermare. In chiaro su Mediaset e su Sky e NOW. Si sfidano i vincitori delle semifinali di sabato."
 },
 {
 "d": "2026-11-23",
