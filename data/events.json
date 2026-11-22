@@ -1,177 +1,6 @@
 {
-"updated": "2026-11-21",
+"updated": "2026-11-22",
 "events": [
-{
-"d": "2026-11-21",
-"t": "05:00",
-"s": "Motori",
-"c": "Formula 1",
-"n": "GP di Las Vegas · qualifiche",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"who": [
-"Ferrari",
-"Mercedes",
-"Leclerc",
-"Hamilton",
-"Antonelli"
-],
-"x": "All'alba in Italia. Su TV8 in differita."
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Ascoli–Vicenza",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Carrarese–Virtus Entella",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Como–Cagliari",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Lazio–Lecce",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Modena–Juve Stabia",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Sampdoria–Benevento",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Sudtirol–Cremonese",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "17:15",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Catanzaro–Palermo",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "18:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Parma–Roma",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-21",
-"t": "19:30",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Empoli–Pisa",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-21",
-"t": "20:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Trieste–Reggio Emilia",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-21",
-"t": "20:45",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Napoli–Torino",
-"o": [
-"seriea_dazn",
-"seriea_sky",
-"seriea_now"
-]
-},
-{
-"d": "2026-11-21",
-"t": "14:30",
-"s": "Tennis",
-"c": "ATP Finals · Torino",
-"n": "Semifinali: Alcaraz–Shelton e Zverev–Medvedev",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"f": [
-"Mediaset"
-],
-"who": [
-"Alcaraz",
-"Shelton",
-"Zverev",
-"Medvedev"
-],
-"x": "Alcaraz–Shelton non prima delle 14:30, in chiaro su Italia 1. Zverev–Medvedev non prima delle 20:30. Doppi alle 12:00 e alle 18:00. Tutto anche su Sky e NOW. Cobolli e Bolelli/Vavassori sono stati eliminati nei gironi.",
-"chg": "Definite le semifinali e gli orari",
-"chgd": "2026-11-21"
-},
 {
 "d": "2026-11-22",
 "t": "05:00",
@@ -396,10 +225,10 @@
 },
 {
 "d": "2026-11-22",
-"t": "",
+"t": "18:00",
 "s": "Tennis",
 "c": "ATP Finals · Torino",
-"n": "Finale",
+"n": "Finale: Zverev–Alcaraz",
 "o": [
 "sky_sport",
 "now_sport"
@@ -408,12 +237,12 @@
 "Mediaset"
 ],
 "who": [
-"Alcaraz",
-"Shelton",
 "Zverev",
-"Medvedev"
+"Alcaraz"
 ],
-"x": "Orario da confermare. In chiaro su Mediaset e su Sky e NOW. Si sfidano i vincitori delle semifinali di sabato."
+"x": "In chiaro su Italia 1 e in streaming gratis su Mediaset Infinity. Anche su Sky Sport Uno, Sky Sport Tennis e NOW. Prima, alle 15:00, la finale del doppio.",
+"chg": "Definiti finalisti e orario",
+"chgd": "2026-11-22"
 },
 {
 "d": "2026-11-23",
