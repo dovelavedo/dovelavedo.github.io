@@ -1,249 +1,6 @@
 {
-"updated": "2026-11-22",
+"updated": "2026-11-23",
 "events": [
-{
-"d": "2026-11-22",
-"t": "05:00",
-"s": "Motori",
-"c": "Formula 1",
-"n": "GP di Las Vegas · gara",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"who": [
-"Ferrari",
-"Mercedes",
-"Leclerc",
-"Hamilton",
-"Antonelli"
-],
-"x": "All'alba in Italia. Su TV8 in differita."
-},
-{
-"d": "2026-11-22",
-"t": "12:30",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Juventus–Venezia",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-22",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Avellino–Mantova",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-22",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Bologna–Udinese",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-22",
-"t": "15:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Sassuolo–Genoa",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-22",
-"t": "16:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Tortona–Olimpia Milano",
-"o": [
-"lbatv",
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-22",
-"t": "17:00",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Milano–Trentino",
-"o": [
-"dazn",
-"vbtv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "17:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Trento–Napoli",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "17:15",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Arezzo–Padova",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-22",
-"t": "17:30",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Scafati–Cantù",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Civitanova–Pordenone",
-"o": [
-"vbtv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Maxima Roma–Treviso",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Milan–Frosinone",
-"o": [
-"seriea_dazn",
-"seriea_sky",
-"seriea_now"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Padova–Monza",
-"o": [
-"vbtv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Piacenza–Perugia",
-"o": [
-"vbtv"
-],
-"f": [
-"Rai Sport"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Virtus Bologna–BC Roma",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:15",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Verona–Udine",
-"o": [
-"lbatv",
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-22",
-"t": "19:00",
-"s": "Pallavolo",
-"c": "SuperLega",
-"n": "Modena–Cisterna",
-"o": [
-"dazn",
-"vbtv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "19:00",
-"s": "Basket",
-"c": "Serie A basket",
-"n": "Varese–Venezia",
-"o": [
-"lbatv"
-]
-},
-{
-"d": "2026-11-22",
-"t": "20:45",
-"s": "Calcio",
-"c": "Serie A",
-"n": "Atalanta–Inter",
-"o": [
-"seriea_dazn"
-]
-},
-{
-"d": "2026-11-22",
-"t": "18:00",
-"s": "Tennis",
-"c": "ATP Finals · Torino",
-"n": "Finale: Zverev–Alcaraz",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"f": [
-"Mediaset"
-],
-"who": [
-"Zverev",
-"Alcaraz"
-],
-"x": "In chiaro su Italia 1 e in streaming gratis su Mediaset Infinity. Anche su Sky Sport Uno, Sky Sport Tennis e NOW. Prima, alle 15:00, la finale del doppio.",
-"chg": "Definiti finalisti e orario",
-"chgd": "2026-11-22"
-},
 {
 "d": "2026-11-23",
 "t": "20:45",
@@ -390,9 +147,12 @@
 "who": [
 "Italia",
 "Cobolli",
-"Musetti"
+"Musetti",
+"Darderi",
+"Berrettini",
+"Vavassori"
 ],
-"x": "Tutta la Coppa Davis è in chiaro su SuperTennis. Se l'Italia passa, semifinale e finale anche su Rai 1."
+"x": "Convocati: Cobolli, Musetti, Darderi, Berrettini e Vavassori (Sinner assente). In chiaro su SuperTennis (canale 64). Se l'Italia passa, semifinale e finale anche su Rai 1."
 },
 {
 "d": "2026-11-25",
@@ -535,7 +295,12 @@
 "SuperTennis"
 ],
 "who": [
-"Italia"
+"Italia",
+"Cobolli",
+"Musetti",
+"Darderi",
+"Berrettini",
+"Vavassori"
 ],
 "x": "Chi vince Italia–Corea del Sud contro chi vince Cechia–Canada. Con l'Italia in campo, anche su Rai 1."
 },
@@ -708,7 +473,12 @@
 "SuperTennis"
 ],
 "who": [
-"Italia"
+"Italia",
+"Cobolli",
+"Musetti",
+"Darderi",
+"Berrettini",
+"Vavassori"
 ],
 "x": "Con l'Italia in campo, anche su Rai 1."
 },
