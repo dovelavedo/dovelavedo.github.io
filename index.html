@@ -125,6 +125,13 @@ nav button[aria-current="page"]{color:var(--accent);border-top-color:var(--accen
 .steps i.on{background:var(--accent)}
 .banner{background:var(--warn-soft);border:1px solid var(--warn);border-radius:12px;padding:10px 12px;font-size:14px}
 .banner b{display:block}
+.install{display:flex;align-items:center;gap:12px;background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:10px 12px}
+.install img{width:36px;height:36px;border-radius:9px;flex:0 0 auto}
+.install .txt{flex:1;min-width:0;font-size:14px;line-height:1.3}
+.install .txt b{display:block;font-size:15px}
+.install .x{background:none;border:0;color:var(--muted);font-size:20px;line-height:1;padding:4px 6px;cursor:pointer}
+.install-help{margin-top:8px;font-size:14px;line-height:1.45}
+.install-help ol{margin:6px 0 0;padding-left:20px}
 footer{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px;padding-top:6px}
 footer a{color:var(--accent)}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -137,6 +144,16 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
     <img src="icons/icon-192.png" alt="">
     <div class="brand">Dove la <span>vedo</span><small>Lo sport in TV oggi, e se è già nei tuoi abbonamenti</small></div>
   </header>
+
+  <div id="installbox" hidden>
+    <div class="install">
+      <img src="icons/icon-192.png" alt="">
+      <div class="txt"><b>Installa Dovelavedo</b>Si apre come un'app, dalla schermata Home. Gratis, senza store.</div>
+      <button class="btn small" type="button" id="installbtn">Installa</button>
+      <button class="x" type="button" id="installx" aria-label="Chiudi">×</button>
+    </div>
+    <div class="card install-help" id="installhelp" hidden></div>
+  </div>
 
   <div class="banner" id="inapp" hidden><b>Le tue scelte potrebbero non essere salvate</b>Stai usando il browser interno di un'app (WhatsApp, Telegram, Instagram…). Apri il link in Safari o Chrome: tocca ⋯ e scegli "Apri nel browser".</div>
 
@@ -397,6 +414,31 @@ function season(){
   if(st.fav.some(f=>f.startsWith("Motori:")&&["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"].includes(plain(f))))out.push({h:"Formula 1",rows:[["Mondiale · tutte le gare",skyS?"Tutte, con prove e qualifiche":"In diretta solo GP d'Italia e Sprint su TV8, il resto in differita",skyS?"ok":"part"]],sug:skyS?[]:[`Per tutte le gare in diretta: ${price("nowsport")} oppure ${price("skysport")}.`]});
   $("season").innerHTML=out.length?`<div class="dayhead"><h2>La tua stagione</h2><span>con i tuoi abbonamenti</span></div>`+out.map(c=>`<div class="card"><h3>${esc(c.h)}</h3><div class="srows">${c.rows.map(r=>`<div class="srow"><b>${r[0]}</b><span class="s-${r[2]}">${r[1]}</span></div>`).join("")}</div>${c.sug.length?`<div class="sugg">${c.sug.map(s=>`<p>${s}</p>`).join("")}</div>`:""}</div>`).join("")+`<p class="note">Prezzi di listino a ottobre 2026, possono cambiare.</p>`:"";
 }
+/* ---------- Tasto "Installa l'app" ---------- */
+let deferredPrompt=null;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e;showInstall()});
+window.addEventListener("appinstalled",()=>{deferredPrompt=null;$("installbox").hidden=true;try{goatcounter.count({path:"installata",event:true})}catch(_){}});
+function isStandalone(){return matchMedia("(display-mode: standalone)").matches||navigator.standalone===true}
+function installDismissed(){try{return Number(localStorage.getItem("dlv_noinstall")||0)>Date.now()}catch(_){return false}}
+function showInstall(){if(!isStandalone()&&!installDismissed()&&$("inapp").hidden)$("installbox").hidden=false}
+function setupInstall(){
+  if(isStandalone())return;
+  const ua=navigator.userAgent, ios=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+  const mobile=ios||/Android|Mobi/i.test(ua);
+  $("installbtn").onclick=async()=>{
+    if(deferredPrompt){deferredPrompt.prompt();const r=await deferredPrompt.userChoice.catch(()=>null);deferredPrompt=null;
+      if(r&&r.outcome==="accepted")$("installbox").hidden=true;return}
+    const h=$("installhelp");
+    h.innerHTML=ios
+      ?`<b>Su iPhone e iPad bastano 3 tocchi:</b><ol><li>Tocca il tasto <b>Condividi</b> (il quadrato con la freccia in su, in basso o in alto).</li><li>Scorri e scegli <b>Aggiungi alla schermata Home</b>.</li><li>Tocca <b>Aggiungi</b>.</li></ol>`
+      :`<b>Per installarla:</b><ol><li>Tocca il menu del browser (<b>⋮</b> in alto a destra in Chrome).</li><li>Scegli <b>Installa app</b> oppure <b>Aggiungi a schermata Home</b>.</li><li>Conferma.</li></ol>`;
+    h.hidden=!h.hidden;
+  };
+  $("installx").onclick=()=>{$("installbox").hidden=true;try{localStorage.setItem("dlv_noinstall",String(Date.now()+14*864e5))}catch(_){}};
+  // iPhone e altri browser senza installazione automatica: mostro il tasto con le istruzioni
+  if(ios||mobile)setTimeout(()=>{if($("installbox").hidden)showInstall()},ios?0:2500);
+}
+
 /* ---------- Il conto degli abbonamenti ---------- */
 const eur=n=>n.toFixed(2).replace(".",",")+" €";
 function bill(){
@@ -559,6 +601,7 @@ function b64d(t){t=t.replace(/-/g,"+").replace(/_/g,"/");return JSON.parse(decod
   if(m){try{const o=b64d(m[1]);["subs","club","sports","fav"].forEach(k=>{if(o[k]!==undefined)st[k]=o[k]});st.seen=true;save();setTimeout(()=>toast("Preferenze importate"),600)}catch(e){}
     try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}}
   if(/FBAN|FBAV|Instagram|Telegram|WhatsApp|Line\/|; wv\)/i.test(navigator.userAgent))$("inapp").hidden=false;
+  setupInstall();
   if(DONATE_URL){$("donatecard").hidden=false;$("donatefoot").hidden=false;$("donatebtn").href=DONATE_URL;$("donatelink").href=DONATE_URL}
   if(GOATCOUNTER){const sc=document.createElement("script");sc.async=true;sc.src="https://gc.zgo.at/count.js";sc.dataset.goatcounter="https://"+GOATCOUNTER+".goatcounter.com/count";document.head.appendChild(sc)}
 })();
