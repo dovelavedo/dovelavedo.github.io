@@ -24,7 +24,7 @@ def weight(e):
         return 0
     for k, w in (("Champions", 1), ("Serie A basket", 7), ("Serie A", 2), ("Formula 1", 3), ("MotoGP", 3),
                  ("ATP Finals", 3), ("Europa League", 3), ("Coppa Davis", 4), ("Conference", 4), ("EuroLeague", 5),
-                 ("SuperLega", 6), ("Serie B", 8)):
+                 ("SuperLega", 6), ("Premier League", 5), ("LaLiga", 5), ("Bundesliga", 6), ("Ligue 1", 7), ("Serie B", 8)):
         if k in c:
             return w - (1 if "sky_sport" in e.get("o", []) and k == "Serie A basket" else 0)
     return 6

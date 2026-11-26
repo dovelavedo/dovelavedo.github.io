@@ -14,6 +14,8 @@ PK = {
     "eurosport": ("Eurosport", "tramite HBO Max, discovery+, DAZN o TIMVISION"),
     "lbatv": ("LBA TV", "99 € a stagione"),
     "vbtv": ("VBTV", "piattaforma di Volleyball World"),
+    "dazngoal": ("DAZN Goal", "19,99 €/mese o 129 € l'anno, calcio estero"),
+    "ligue1plus": ("Ligue 1+", "9,99 €/mese, la piattaforma della Ligue 1"),
 }
 OFFERS = {
     "seriea_dazn": ("DAZN", ["daznfull", "daznclub"]), "seriea_sky": ("Sky", ["skycalcio"]),
@@ -21,6 +23,7 @@ OFFERS = {
     "sky_sport": ("Sky", ["skysport"]), "now_sport": ("NOW", ["nowsport"]),
     "prime": ("Prime Video", ["prime"]), "eurosport": ("Eurosport", ["eurosport"]),
     "lbatv": ("LBA TV", ["lbatv"]), "vbtv": ("VBTV", ["vbtv"]),
+    "liga_dazn": ("DAZN", ["daznfull", "dazngoal"]), "ligue1plus": ("Ligue 1+", ["ligue1plus"]),
 }
 PLAT = {
     "DAZN": "https://www.dazn.com/it-IT/home", "Sky": "https://www.sky.it", "NOW": "https://www.nowtv.it",
@@ -29,7 +32,7 @@ PLAT = {
     "Rai 1": "https://www.raiplay.it/dirette/rai1", "Rai 2": "https://www.raiplay.it/dirette/rai2",
     "Rai Sport": "https://www.raiplay.it/dirette/raisport", "Rai": "https://www.raiplay.it/dirette",
     "RaiPlay": "https://www.raiplay.it/dirette", "Mediaset": "https://mediasetinfinity.mediaset.it/dirette",
-    "TV8": "https://www.tv8.it/streaming", "SuperTennis": "https://www.supertennis.tv",
+    "TV8": "https://www.tv8.it/streaming", "Ligue 1+": "https://ligue1.com/offres-ligue1plus", "SuperTennis": "https://www.supertennis.tv",
 }
 WDL = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
 MO = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre",

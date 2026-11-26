@@ -53,3 +53,7 @@ Se cambiano pacchetti, prezzi o codici, vanno aggiornati sia in `index.html` (PK
 ## Calendari caricati
 
 Serie A e Serie B fino all'ultima giornata, Champions/Europa/Conference fino alla fine della fase campionato, Coppa Italia (ottavi e finale), EuroLeague di Milano e Virtus fino alla fine della stagione regolare, SuperLega fino all'ultima giornata, Formula 1 e MotoGP 2027. Serie A basket solo fino a inizio dicembre: il calendario completo non era leggibile dalle fonti online.
+
+## Campionati esteri
+
+Premier League (`sky_sport`, `now_sport`), LaLiga (`liga_dazn`: DAZN Full o DAZN Goal; Clásico e derby di Madrid anche gratis su Mediaset), Bundesliga (`sky_sport`, `now_sport`), Ligue 1 (`ligue1plus`: piattaforma Ligue 1+). I calendari completi vengono da openfootball (https://github.com/openfootball/football.json, cartella 2026-27): le giornate senza orari ufficiali sono messe con `w` (weekend) e vanno completate man mano, come la Serie A. Ogni giorno controlla gli orari ufficiali dei prossimi 7 giorni anche per questi campionati (Premier e Liga in particolare, che spalmano le partite tra venerdì e lunedì).

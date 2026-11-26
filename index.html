@@ -64,6 +64,21 @@ header img{width:40px;height:40px;border-radius:10px;flex:0 0 auto}
 .dayhead span{font-size:13px;color:var(--muted);text-align:right}
 .list{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .list.livebox{border-color:var(--live)}
+.groups{display:flex;flex-direction:column;gap:10px}
+.grp{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.grp>summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer;user-select:none}
+.grp>summary::-webkit-details-marker{display:none}
+.grp>summary:hover{background:var(--accent-soft)}
+.grp .gi{font-size:20px;line-height:1;flex:0 0 auto}
+.grp .gt{flex:1;min-width:0}
+.grp .gn{display:block;font-weight:800;font-size:16px}
+.grp .gm{display:block;font-size:13px;color:var(--muted)}
+.grp .gfav{color:var(--gold-ink);font-weight:700}
+.grp .chev{flex:0 0 auto;width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:0 4px 4px 0;transition:transform .15s}
+.grp[open] .chev{transform:rotate(-135deg);margin:4px 4px 0 0}
+.grp .rows{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.groupbar{display:flex;justify-content:flex-end;gap:8px}
+.linkbtn{background:none;border:0;color:var(--accent);font:inherit;font-size:14px;font-weight:700;cursor:pointer;padding:2px 0}
 .row{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;border:0;border-top:1px solid var(--line);background:transparent;color:inherit;text-align:left;font:inherit;cursor:pointer;width:100%}
 .row:first-child{border-top:0}
 .row:hover{background:var(--accent-soft)}
@@ -254,29 +269,34 @@ const PLAT={
   "DAZN":"https://www.dazn.com/it-IT/home","Sky":"https://www.sky.it","NOW":"https://www.nowtv.it","Prime Video":"https://www.primevideo.com",
   "Eurosport":"https://www.eurosport.it","LBA TV":"https://www.legabasket.it","VBTV":"https://volleyballworld.tv",
   "Rai 1":"https://www.raiplay.it/dirette/rai1","Rai 2":"https://www.raiplay.it/dirette/rai2","Rai Sport":"https://www.raiplay.it/dirette/raisport","Rai":"https://www.raiplay.it/dirette","RaiPlay":"https://www.raiplay.it/dirette","Mediaset":"https://mediasetinfinity.mediaset.it/dirette",
-  "TV8":"https://www.tv8.it/streaming","SuperTennis":"https://www.supertennis.tv","Canale 5":"https://www.mediasetinfinity.mediaset.it","Italia 1":"https://www.mediasetinfinity.mediaset.it"
+  "TV8":"https://www.tv8.it/streaming","SuperTennis":"https://www.supertennis.tv","Canale 5":"https://www.mediasetinfinity.mediaset.it","Italia 1":"https://www.mediasetinfinity.mediaset.it",
+  "Ligue 1+":"https://ligue1.com/offres-ligue1plus"
 };
 const PK=[
   {id:"daznfull",n:"DAZN Full, Family o Full Mobile",s:"DAZN",p:"DAZN",price:"da 46,99 €/mese o 379 € l'anno"},
   {id:"daznclub",n:"DAZN MyClubPass",s:"MyClubPass",p:"DAZN",price:"29,99 €/mese con 12 rate, solo la tua squadra"},
+  {id:"dazngoal",n:"DAZN Goal",s:"DAZN Goal",p:"DAZN",price:"19,99 €/mese o 129 € l'anno, calcio estero (LaLiga)"},
   {id:"skycalcio",n:"Sky TV + Sky Calcio",s:"Sky Calcio",p:"Sky",price:"circa 14,90 €/mese in promozione"},
   {id:"skysport",n:"Sky TV + Sky Sport",s:"Sky Sport",p:"Sky",price:"24,99 €/mese per 18 mesi"},
   {id:"nowsport",n:"NOW Pass Sport",s:"NOW Sport",p:"NOW",price:"24,99 €/mese con vincolo di 12 mesi"},
   {id:"prime",n:"Amazon Prime",s:"Prime",p:"Prime Video",price:"4,99 €/mese"},
   {id:"eurosport",n:"Eurosport",s:"Eurosport",p:"Eurosport",price:"tramite HBO Max, discovery+, DAZN o TIMVISION"},
   {id:"lbatv",n:"LBA TV",s:"LBA TV",p:"LBA TV",price:"99 € a stagione"},
-  {id:"vbtv",n:"VBTV",s:"VBTV",p:"VBTV",price:"piattaforma di Volleyball World"}
+  {id:"vbtv",n:"VBTV",s:"VBTV",p:"VBTV",price:"piattaforma di Volleyball World"},
+  {id:"ligue1plus",n:"Ligue 1+",s:"Ligue 1+",p:"Ligue 1+",price:"9,99 €/mese, la piattaforma della Ligue 1"}
 ];
 const PKS=Object.fromEntries(PK.map(k=>[k.id,k]));
 // Codici usati in data/events.json → piattaforma e pacchetti che la sbloccano
 const OFFERS={
   seriea_dazn:{p:"DAZN",k:["daznfull","daznclub"]}, seriea_sky:{p:"Sky",k:["skycalcio"]}, seriea_now:{p:"NOW",k:["nowsport"]},
   dazn:{p:"DAZN",k:["daznfull"]}, sky_sport:{p:"Sky",k:["skysport"]}, now_sport:{p:"NOW",k:["nowsport"]},
-  prime:{p:"Prime Video",k:["prime"]}, eurosport:{p:"Eurosport",k:["eurosport"]}, lbatv:{p:"LBA TV",k:["lbatv"]}, vbtv:{p:"VBTV",k:["vbtv"]}
+  prime:{p:"Prime Video",k:["prime"]}, eurosport:{p:"Eurosport",k:["eurosport"]}, lbatv:{p:"LBA TV",k:["lbatv"]}, vbtv:{p:"VBTV",k:["vbtv"]},
+  liga_dazn:{p:"DAZN",k:["daznfull","dazngoal"]}, ligue1plus:{p:"Ligue 1+",k:["ligue1plus"]}
 };
 const SERIEA=["Atalanta","Bologna","Cagliari","Como","Fiorentina","Frosinone","Genoa","Inter","Juventus","Lazio","Lecce","Milan","Monza","Napoli","Parma","Roma","Sassuolo","Torino","Udinese","Venezia"];
 const FAVG=[
   {s:"Calcio",l:"Calcio · Serie A",i:SERIEA},{s:"Calcio",l:"Calcio · Nazionale",i:["Italia"]},
+  {s:"Calcio",l:"Calcio · estero",i:["Real Madrid","Barcellona","Atletico Madrid","Bayern Monaco","Borussia Dortmund","Bayer Leverkusen","PSG","Marsiglia","Manchester City","Liverpool","Arsenal","Manchester United","Chelsea","Tottenham"]},
   {s:"Tennis",l:"Tennis",i:["Italia","Sinner","Cobolli","Musetti","Paolini","Alcaraz","Zverev","Shelton","Medvedev"]},
   {s:"Motori",l:"Formula 1 · scuderie e piloti",i:["Ferrari","Mercedes","Leclerc","Hamilton","Antonelli"]},{s:"Motori",l:"MotoGP · moto e piloti",i:["Ducati","Aprilia","Bagnaia","Marquez","Bezzecchi"]},
   {s:"Basket",l:"Basket",i:["Olimpia Milano","Virtus Bologna"]},
@@ -285,7 +305,7 @@ const FAVG=[
 const SPORTS=["Calcio","Tennis","Motori","Basket","Pallavolo"];
 const CUPS={Inter:"CL",Roma:"CL",Napoli:"CL",Como:"CL",Juventus:"EL",Milan:"EL",Atalanta:"ECL"};
 // Costo mensile indicativo dei pacchetti, per il conto degli abbonamenti (LBA TV: 99 € a stagione divisi su 12 mesi)
-const MONTH={daznfull:46.99,daznclub:29.99,skycalcio:14.90,skysport:24.99,nowsport:24.99,prime:4.99,lbatv:8.25,vbtv:0};
+const MONTH={dazngoal:19.99,ligue1plus:9.99,daznfull:46.99,daznclub:29.99,skycalcio:14.90,skysport:24.99,nowsport:24.99,prime:4.99,lbatv:8.25,vbtv:0};
 const DUR={Calcio:115,Pallavolo:150,Motori:120,Tennis:180,Basket:120};
 const WD=["Dom","Lun","Mar","Mer","Gio","Ven","Sab"],WDL=["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"],MO=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 
@@ -353,6 +373,12 @@ function rowHTML(e,showDate){
     <div class="ev"><div class="comp">${esc(e.c)}${tags?" · "+tags:""}</div><div class="name">${esc(e.n)}</div><div class="plats">${esc(platsLine(e))}</div></div>
     ${pill}</button>`;
 }
+const OPENG={};
+const GORDER=["Nations League","Champions League","Serie A","Coppa Italia","Europa League","Conference League","Formula 1","MotoGP","ATP Finals","Coppa Davis","Premier League","LaLiga","Bundesliga","Ligue 1","Serie B","EuroLeague","Serie A basket","SuperLega"];
+const grpName=e=>e.c.split(" · ")[0];
+const gRank=g=>{const i=GORDER.indexOf(g);return i<0?99:i};
+const isOpen=(x,auto)=>x.g in OPENG?OPENG[x.g]:(auto||x.fav||x.live);
+const icon=e=>e.s==="Motori"?(/MotoGP/.test(e.c)?"🏍️":"🏎️"):({Calcio:"⚽",Tennis:"🎾",Basket:"🏀",Pallavolo:"🏐"}[e.s]||"•");
 function bindRows(root){root.querySelectorAll(".row").forEach(b=>b.onclick=()=>openSheet(EV.find(e=>key(e)===b.dataset.k)))}
 function filterEv(e){
   if(!st.sports.includes(e.s))return false;
@@ -382,8 +408,26 @@ function renderList(){
   }
   const inc=items.filter(e=>access(e).cls!=="warn").length;
   $("dcount").textContent=items.length?(q?`${items.length} eventi`:`${inc} di ${items.length} già visibili`):"";
-  $("list").innerHTML=items.length?items.map(e=>rowHTML(e,!!q)).join(""):`<div class="empty">${empty}</div>`;
-  bindRows($("list"));
+  const L=$("list");
+  if(!items.length){L.className="list";L.innerHTML=`<div class="empty">${empty}</div>`;return}
+  if(q){L.className="list";L.innerHTML=items.map(e=>rowHTML(e,true)).join("");bindRows(L);return}
+  // Tendine: un gruppo per competizione
+  const by=new Map();items.forEach(e=>{const g=grpName(e);if(!by.has(g))by.set(g,[]);by.get(g).push(e)});
+  const groups=[...by.entries()].map(([g,ev])=>({g,ev,fav:ev.some(isFav),live:ev.some(isLive)}));
+  groups.sort((a,b)=>(b.fav-a.fav)||(gRank(a.g)-gRank(b.g))||sortEv(a.ev[0],b.ev[0]));
+  const auto=groups.length===1||items.length<=4;
+  L.className="groups";
+  L.innerHTML=(groups.length>2?`<div class="groupbar"><button class="linkbtn" type="button" id="gall">${groups.every(x=>isOpen(x,auto))?"Chiudi tutto":"Apri tutto"}</button></div>`:"")+groups.map(x=>{
+    const n=x.ev.length,ok=x.ev.filter(e=>access(e).cls==="ok").length,fr=x.ev.filter(e=>e.f&&e.f.length).length;
+    const first=x.ev.find(e=>e.t);const favs=x.ev.filter(isFav).length;
+    const meta=[`${n} ${n===1?(x.ev[0].s==="Calcio"||x.ev[0].s==="Basket"||x.ev[0].s==="Pallavolo"?"partita":"evento"):(x.ev[0].s==="Calcio"||x.ev[0].s==="Basket"||x.ev[0].s==="Pallavolo"?"partite":"eventi")}`,
+      first?"dalle "+first.t:"orari da definire",ok?`${ok} ${ok===1?"inclusa":"incluse"}`:"",fr?`${fr} gratis`:""].filter(Boolean).join(" · ");
+    return `<details class="grp" data-g="${esc(x.g)}"${isOpen(x,auto)?" open":""}><summary><span class="gi">${icon(x.ev[0])}</span><span class="gt"><span class="gn">${esc(x.g)}${x.live?' <span class="livetag">LIVE</span>':""}</span><span class="gm">${favs?`<span class="gfav">★ ${favs} di chi segui</span> · `:""}${meta}</span></span><span class="chev" aria-hidden="true"></span></summary><div class="rows">${x.ev.map(e=>rowHTML(e,false)).join("")}</div></details>`}).join("");
+  L.querySelectorAll(".grp").forEach(d=>{
+    d.querySelector("summary").addEventListener("click",()=>{OPENG[d.dataset.g]=!d.open});
+    d.addEventListener("toggle",()=>{const b=$("gall");if(b)b.textContent=[...L.querySelectorAll(".grp")].every(x=>x.open)?"Chiudi tutto":"Apri tutto"})});
+  if($("gall"))$("gall").onclick=()=>{const all=[...L.querySelectorAll(".grp")];const open=!all.every(x=>x.open);all.forEach(d=>{d.open=open;OPENG[d.dataset.g]=open})};
+  bindRows(L);
 }
 
 /* ---------- Le mie ---------- */
