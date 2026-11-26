@@ -1,92 +1,6 @@
 {
-"updated": "2026-11-25",
+"updated": "2026-11-26",
 "events": [
-{
-"d": "2026-11-25",
-"t": "16:00",
-"s": "Tennis",
-"c": "Coppa Davis · Bologna",
-"n": "Italia–Corea del Sud · quarti",
-"o": [],
-"f": [
-"SuperTennis"
-],
-"who": [
-"Italia",
-"Cobolli",
-"Musetti",
-"Darderi",
-"Berrettini",
-"Vavassori"
-],
-"x": "Convocati: Cobolli, Musetti, Darderi, Berrettini e Vavassori (Sinner assente). In chiaro su SuperTennis (canale 64). Se l'Italia passa, semifinale e finale anche su Rai 1."
-},
-{
-"d": "2026-11-25",
-"t": "19:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Cremonese–Avellino",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-25",
-"t": "20:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Mantova–Arezzo",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-25",
-"t": "20:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Padova–Sampdoria",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-25",
-"t": "20:00",
-"s": "Calcio",
-"c": "Serie B",
-"n": "Pisa–Modena",
-"o": [
-"dazn"
-],
-"x": "Tutta la Serie B è su DAZN. Anche su LaB Channel, canale a pagamento dentro Prime Video."
-},
-{
-"d": "2026-11-25",
-"t": "21:00",
-"s": "Calcio",
-"c": "Champions League",
-"n": "Inter–Stoccarda",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-25",
-"t": "21:00",
-"s": "Calcio",
-"c": "Champions League",
-"n": "PSG–Roma",
-"o": [
-"prime"
-],
-"x": "In esclusiva su Prime Video: non è su Sky né su NOW."
-},
 {
 "d": "2026-11-26",
 "t": "10:00",
@@ -161,10 +75,11 @@
 "t": "16:00",
 "s": "Tennis",
 "c": "Coppa Davis · Bologna",
-"n": "Prima semifinale",
+"n": "Semifinale: Italia–Repubblica Ceca",
 "o": [],
 "f": [
-"SuperTennis"
+"SuperTennis",
+"Rai 1"
 ],
 "who": [
 "Italia",
@@ -174,7 +89,9 @@
 "Berrettini",
 "Vavassori"
 ],
-"x": "Chi vince Italia–Corea del Sud contro chi vince Cechia–Canada. Con l'Italia in campo, anche su Rai 1."
+"x": "L'Italia ha battuto la Corea del Sud 2-1, decisivo il doppio Berrettini/Vavassori. Orario da confermare. In chiaro su SuperTennis e Rai 1.",
+"chg": "Italia in semifinale contro la Repubblica Ceca",
+"chgd": "2026-11-26"
 },
 {
 "d": "2026-11-27",
