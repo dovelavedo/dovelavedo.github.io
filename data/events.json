@@ -1,75 +1,6 @@
 {
-"updated": "2026-11-26",
+"updated": "2026-11-27",
 "events": [
-{
-"d": "2026-11-26",
-"t": "10:00",
-"s": "Tennis",
-"c": "Coppa Davis · Bologna",
-"n": "Gran Bretagna–Germania · quarti",
-"o": [],
-"f": [
-"SuperTennis"
-],
-"who": [
-"Zverev"
-]
-},
-{
-"d": "2026-11-26",
-"t": "17:00",
-"s": "Tennis",
-"c": "Coppa Davis · Bologna",
-"n": "Austria–Spagna · quarti",
-"o": [],
-"f": [
-"SuperTennis"
-],
-"who": [
-"Alcaraz"
-],
-"x": "Non prima delle 17."
-},
-{
-"d": "2026-11-26",
-"t": "18:45",
-"s": "Calcio",
-"c": "Europa League",
-"n": "Olympiacos–Milan",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"x": "In diretta su Sky e NOW. In chiaro su TV8 in differita dalle 21:00, anche in streaming gratis su tv8.it.",
-"l": {
-"TV8": "https://www.tv8.it/sport/uefa-europa-league-2026-2027/uefa-europa-league-olympiacos-milan"
-},
-"chg": "TV8 la trasmette in differita",
-"chgd": "2026-11-25"
-},
-{
-"d": "2026-11-26",
-"t": "21:00",
-"s": "Calcio",
-"c": "Conference League",
-"n": "Borac–Atalanta",
-"o": [
-"sky_sport",
-"now_sport"
-]
-},
-{
-"d": "2026-11-26",
-"t": "21:00",
-"s": "Calcio",
-"c": "Europa League",
-"n": "Juventus–Omonia Nicosia",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"x": "Su Sky e NOW. Non va in chiaro su TV8."
-},
 {
 "d": "2026-11-27",
 "t": "16:00",
@@ -103,7 +34,7 @@
 ],
 "d": "2026-11-27",
 "t": "20:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport 255 e in streaming su NOW."
 },
 {
 "s": "Calcio",
@@ -127,6 +58,18 @@
 "seriea_sky",
 "seriea_now"
 ]
+},
+{
+"s": "Calcio",
+"c": "Premier League",
+"n": "Nottingham Forest–Chelsea",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-27",
+"t": "21:00",
+"x": "Su Sky Sport Max e in streaming su NOW."
 },
 {
 "d": "2026-11-28",
@@ -211,7 +154,7 @@
 ],
 "d": "2026-11-28",
 "t": "15:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport Max e in streaming su NOW."
 },
 {
 "s": "Calcio",
@@ -251,6 +194,30 @@
 },
 {
 "s": "Calcio",
+"c": "Premier League",
+"n": "Leeds–Coventry",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-28",
+"t": "16:00",
+"x": "Su Sky Sport Mix e in streaming su NOW."
+},
+{
+"s": "Calcio",
+"c": "Premier League",
+"n": "Manchester United–Brentford",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-28",
+"t": "16:00",
+"x": "Su Sky Sport Uno e in streaming su NOW."
+},
+{
+"s": "Calcio",
 "c": "Ligue 1",
 "n": "Angers–Lens",
 "o": [
@@ -283,6 +250,18 @@
 },
 {
 "s": "Calcio",
+"c": "Premier League",
+"n": "Ipswich–Aston Villa",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-28",
+"t": "18:30",
+"x": "Su Sky Sport Max e in streaming su NOW."
+},
+{
+"s": "Calcio",
 "c": "Bundesliga",
 "n": "Stoccarda–Eintracht Francoforte",
 "o": [
@@ -291,7 +270,7 @@
 ],
 "d": "2026-11-28",
 "t": "18:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport Mix e in streaming su NOW."
 },
 {
 "d": "2026-11-28",
@@ -382,6 +361,18 @@
 ]
 },
 {
+"s": "Calcio",
+"c": "Premier League",
+"n": "Everton–Liverpool",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-29",
+"t": "13:00",
+"x": "Su Sky Sport Arena e in streaming su NOW."
+},
+{
 "d": "2026-11-29",
 "t": "14:00",
 "s": "Motori",
@@ -465,6 +456,42 @@
 },
 {
 "s": "Calcio",
+"c": "Premier League",
+"n": "Brighton–Newcastle",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-29",
+"t": "15:05",
+"x": "Su Sky Sport 257 e in streaming su NOW."
+},
+{
+"s": "Calcio",
+"c": "Premier League",
+"n": "Fulham–Bournemouth",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-29",
+"t": "15:05",
+"x": "Su Sky Sport 258 e in streaming su NOW."
+},
+{
+"s": "Calcio",
+"c": "Premier League",
+"n": "Sunderland–Tottenham",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-29",
+"t": "15:05",
+"x": "Su Sky Sport Arena e in streaming su NOW."
+},
+{
+"s": "Calcio",
 "c": "Bundesliga",
 "n": "Friburgo–Lipsia",
 "o": [
@@ -473,7 +500,7 @@
 ],
 "d": "2026-11-29",
 "t": "15:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport Mix e in streaming su NOW."
 },
 {
 "s": "Calcio",
@@ -510,6 +537,18 @@
 },
 {
 "s": "Calcio",
+"c": "Premier League",
+"n": "Arsenal–Manchester City",
+"o": [
+"sky_sport",
+"now_sport"
+],
+"d": "2026-11-29",
+"t": "17:30",
+"x": "Su Sky Sport Arena e in streaming su NOW."
+},
+{
+"s": "Calcio",
 "c": "Bundesliga",
 "n": "Hoffenheim–Augsburg",
 "o": [
@@ -518,7 +557,7 @@
 ],
 "d": "2026-11-29",
 "t": "17:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport 258 e in streaming su NOW."
 },
 {
 "d": "2026-11-29",
@@ -553,7 +592,7 @@
 ],
 "d": "2026-11-29",
 "t": "19:30",
-"x": "Tutta la Bundesliga è su Sky Sport e NOW."
+"x": "Su Sky Sport Arena e in streaming su NOW."
 },
 {
 "d": "2026-11-29",
@@ -578,19 +617,6 @@
 },
 {
 "s": "Calcio",
-"c": "Premier League",
-"n": "Arsenal–Manchester City",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
-},
-{
-"s": "Calcio",
 "c": "LaLiga",
 "n": "Betis–Rayo Vallecano",
 "o": [
@@ -600,19 +626,6 @@
 "t": "",
 "w": "28-29 novembre",
 "x": "14ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta LaLiga è su DAZN (anche con il piano DAZN Goal)."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Brighton–Newcastle",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
 },
 {
 "s": "Calcio",
@@ -675,32 +688,6 @@
 "x": "14ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta LaLiga è su DAZN (anche con il piano DAZN Goal)."
 },
 {
-"s": "Calcio",
-"c": "Premier League",
-"n": "Everton–Liverpool",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Fulham–Bournemouth",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
-},
-{
 "d": "2026-11-29",
 "t": "",
 "s": "Motori",
@@ -718,32 +705,6 @@
 "Antonelli"
 ],
 "x": "Su TV8 in differita."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Ipswich–Aston Villa",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Leeds–Coventry",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
 },
 {
 "s": "Calcio",
@@ -770,19 +731,6 @@
 "x": "14ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta LaLiga è su DAZN (anche con il piano DAZN Goal)."
 },
 {
-"s": "Calcio",
-"c": "Premier League",
-"n": "Manchester United–Brentford",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
-},
-{
 "d": "2026-11-29",
 "t": "",
 "s": "Pallavolo",
@@ -792,19 +740,6 @@
 "vbtv"
 ],
 "x": "Orario e canali in chiaro (Rai Sport, DAZN) non ancora comunicati."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Nottingham Forest–Chelsea",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
 },
 {
 "d": "2026-11-29",
@@ -850,19 +785,6 @@
 "t": "",
 "w": "28-29 novembre",
 "x": "14ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta LaLiga è su DAZN (anche con il piano DAZN Goal)."
-},
-{
-"s": "Calcio",
-"c": "Premier League",
-"n": "Sunderland–Tottenham",
-"o": [
-"sky_sport",
-"now_sport"
-],
-"d": "2026-11-29",
-"t": "",
-"w": "28-29 novembre",
-"x": "12ª giornata: giorno e orario vengono fissati qualche settimana prima. Tutta la Premier League è su Sky Sport e NOW."
 },
 {
 "s": "Calcio",
