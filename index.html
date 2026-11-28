@@ -65,6 +65,15 @@ header img{width:40px;height:40px;border-radius:10px;flex:0 0 auto}
 .list{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .list.livebox{border-color:var(--live)}
 .groups{display:flex;flex-direction:column;gap:10px}
+.best{border-color:var(--accent)}
+.best .pick{background:var(--accent-soft);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.best .pick .lab{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.best .pick .combo{font-family:var(--display);font-size:22px;font-weight:700;line-height:1.15}
+.best .pick .price{font-size:15px;font-weight:600}
+.best .alt{font-size:14px;color:var(--muted)}
+.best table{width:100%;border-collapse:collapse;font-size:14px}
+.best td{padding:7px 0;border-top:1px solid var(--line);vertical-align:top}
+.best td:last-child{text-align:right;color:var(--muted);padding-left:10px}
 .grp{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .grp>summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer;user-select:none}
 .grp>summary::-webkit-details-marker{display:none}
@@ -194,8 +203,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <p class="note" id="favline"></p>
       <div class="actions"><button class="btn ghost small" type="button" id="editfav">Modifica squadre e atleti</button></div>
     </div>
+    <div class="card best" id="bill" hidden></div>
     <div class="stack" id="season"></div>
-    <div class="card" id="bill" hidden></div>
     <div class="dayhead"><h2>I tuoi prossimi eventi</h2><span id="ncount"></span></div>
     <div class="list" id="minelist"></div>
     <p class="note">Per non perderti un evento, aprilo e tocca "Aggiungi al calendario".</p>
@@ -206,6 +215,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <h3>Squadre e atleti</h3>
       <p class="note">Li trovi evidenziati nel palinsesto e raccolti nella scheda "Le mie".</p>
       <div id="favpick"></div>
+      <div class="actions"><button class="btn small" type="button" id="gobest">Calcola l'abbonamento migliore per me</button></div>
     </div>
     <div class="card">
       <h3>I tuoi abbonamenti</h3>
@@ -520,10 +530,25 @@ function bill(){
     tips.push(`<p><b>Stessi eventi a meno:</b> ${names(full.set)}, circa ${eur(full.p)} al mese invece di ${eur(nowP)}.</p>`);
   }else if(!tips.length)tips.push(`<p>Con i tuoi abbonamenti vedi già tutto quello che si può vedere, e non stai pagando doppioni.</p>`);
   if(maxC<T.length)tips.push(`<p>${T.length-maxC} ${T.length-maxC===1?"evento non ha":"eventi non hanno"} ancora un'emittente confermata.</p>`);
+  // Per ognuno di chi segui: quanti eventi e con cosa si vedono nella combinazione consigliata
+  const rec=full;
+  const per=favMode?st.fav.map(f=>{const ev=T.filter(e=>(e.who||[]).some(w=>e.s+":"+w===f));if(!ev.length)return "";
+    const fr=ev.filter(e=>e.f&&e.f.length).length;
+    const by=new Set();ev.forEach(e=>offers(e).forEach(of=>of.k.forEach(k=>{if(rec.set.includes(k)&&(k!=="daznclub"||(e.who||[]).includes(club)))by.add(k)})));
+    const seen=ev.filter(e=>(e.f&&e.f.length)||offers(e).some(of=>of.k.some(k=>rec.set.includes(k)&&(k!=="daznclub"||(e.who||[]).includes(club))))).length;
+    return `<tr><td><span class="star">★</span> ${esc(plain(f))}<br><span class="alt">${seen} di ${ev.length} eventi${fr?` · ${fr} gratis`:""}</span></td><td>${by.size?[...by].map(k=>PKS[k].s).join(", "):(fr?"in chiaro":"emittente da confermare")}</td></tr>`}).join(""):"";
+  const pick=rec.set.length
+    ?`<div class="pick"><span class="lab">${favMode?"Per chi segui ti conviene":"Per gli sport che segui ti conviene"}</span><span class="combo">${esc(names(rec.set))}</span><span class="price">circa ${eur(rec.p)} al mese · vedi ${rec.c} di ${T.length} eventi</span></div>`
+    :`<div class="pick"><span class="lab">Buone notizie</span><span class="combo">Nessun abbonamento</span><span class="price">Quello che segui è tutto gratis: ${free} di ${T.length} eventi</span></div>`;
+  const altp=mid&&mid.p<=rec.p*.7?`<p class="alt">Per spendere meno: con ${esc(names(mid.set))} ne vedi ${mid.c} a circa ${eur(mid.p)} al mese.</p>`:"";
   box.hidden=false;
-  box.innerHTML=`<h3>Il conto degli abbonamenti</h3><p class="note">${favMode?"Calcolato su tutti gli eventi in calendario di chi segui":"Calcolato su tutti gli eventi in calendario degli sport che segui"}, da oggi a fine stagione.</p>
+  box.innerHTML=`<h3>Il tuo abbonamento ideale</h3>
+    ${favMode?"":`<p class="note">Scegli le tue squadre e i tuoi atleti nel Profilo: il consiglio diventa su misura per te.</p>`}
+    ${pick}${altp}
+    ${per?`<table>${per}</table>`:""}
+    <h3>Rispetto a quello che hai</h3>
     <div class="srows">${rows.join("")}</div><div class="sugg">${tips.join("")}</div>
-    <p class="note">Prezzi di listino mensili a ottobre 2026: promozioni e vincoli cambiano spesso. Sky Calcio e Sky Sport richiedono anche Sky TV. LBA TV costa 99 € a stagione. Il prezzo di VBTV non è nel conto: lo trovi sul suo sito.</p>`;
+    <p class="note">${favMode?"Calcolato su tutti gli eventi in calendario di chi segui":"Calcolato su tutti gli eventi in calendario degli sport che segui"}, da oggi a fine stagione. Prezzi di listino mensili: promozioni e vincoli cambiano spesso. Sky Calcio e Sky Sport richiedono anche Sky TV. LBA TV costa 99 € a stagione. Il prezzo di VBTV non è nel conto.</p>`;
 }
 function renderMine(){
   const items=EV.filter(e=>isFav(e)&&!isOver(e)).sort(sortEv);
@@ -634,6 +659,7 @@ function go(v){
 }
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>go(b.dataset.v));
 $("replay").onclick=()=>onboard(0);
+$("gobest").onclick=()=>{go("mie");$("bill").scrollIntoView({block:"start"})};
 $("editfav").onclick=()=>{go("profilo");$("favcard").scrollIntoView({block:"start"})};
 $("q").oninput=()=>{st.q=$("q").value;renderList()};
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("sheet").hidden)closeSheet()});
